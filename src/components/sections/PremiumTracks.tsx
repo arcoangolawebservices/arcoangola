@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 export default function PremiumTracks() {
   const t = useTranslations("premium");
@@ -22,6 +23,17 @@ export default function PremiumTracks() {
             {t("title")}
           </h2>
           <p className="text-gray-500 max-w-xl">{t("subtitle")}</p>
+        </div>
+
+        {/* Welder visual strip */}
+        <div className="relative h-56 lg:h-72 mb-10 overflow-hidden">
+          <Image
+            src="/assets/welder.webp"
+            alt="Professional welder in training"
+            fill
+            style={{ objectFit: "cover", objectPosition: "center 35%" }}
+          />
+          <div className="absolute inset-0 bg-navy/20" aria-hidden="true" />
         </div>
 
         {/* Cards */}

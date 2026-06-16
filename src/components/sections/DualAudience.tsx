@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 const CheckIcon = () => (
   <svg className="w-4 h-4 shrink-0 text-blue mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
@@ -44,7 +45,17 @@ export default function DualAudience() {
 
         <div className="grid lg:grid-cols-2 gap-0 border border-gray-200">
           {/* Individual — white panel */}
-          <div className="p-8 lg:p-12 flex flex-col gap-6 border-b lg:border-b-0 lg:border-r border-gray-200">
+          <div className="flex flex-col border-b lg:border-b-0 lg:border-r border-gray-200 overflow-hidden">
+            {/* Portrait image — bleeds full width at top */}
+            <div className="relative h-56 shrink-0">
+              <Image
+                src="/assets/worker.webp"
+                alt="Certified industrial worker"
+                fill
+                style={{ objectFit: "cover", objectPosition: "center top" }}
+              />
+            </div>
+            <div className="p-8 lg:p-12 flex flex-col gap-6 flex-1">
             <span className="self-start text-xs font-black uppercase tracking-widest text-blue">
               {t("individual.tag")}
             </span>
@@ -71,6 +82,7 @@ export default function DualAudience() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </a>
+            </div>
           </div>
 
           {/* Corporate — navy panel */}
