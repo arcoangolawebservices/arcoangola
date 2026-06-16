@@ -6,7 +6,7 @@ export default function PremiumTracks() {
 
   const tracks = [
     { key: "cogip", icon: "⚙️", img: "/assets/welder.webp", imgW: 1200, imgH: 801, imgAlt: "Professional welder in training" },
-    { key: "cmqip", icon: "🔩", img: "/assets/worker.webp", imgW: 900,  imgH: 600, imgAlt: "Certified industrial worker" },
+    { key: "cmqip", icon: "🔩", img: "/assets/inspector.webp", imgW: 1200, imgH: 800, imgAlt: "Industrial inspector on site" },
   ] as const;
 
 

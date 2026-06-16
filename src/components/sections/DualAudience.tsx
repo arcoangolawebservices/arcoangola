@@ -47,10 +47,10 @@ export default function DualAudience() {
           {/* Individual — white panel */}
           <div className="flex flex-col overflow-hidden border-b lg:border-b-0 lg:border-r border-gray-200">
             <Image
-              src="/assets/inspector.webp"
+              src="/assets/worker.webp"
               alt="Certified industrial professional"
-              width={1200}
-              height={800}
+              width={900}
+              height={600}
               style={{ width: "100%", height: "auto" }}
             />
             <div className="p-8 lg:p-12 flex flex-col gap-6 flex-1">
