@@ -1,0 +1,410 @@
+{
+  "nav": {
+    "courses": "Cours",
+    "corporate": "Entreprises",
+    "contact": "Contact",
+    "language": "Langue",
+    "requestTraining": "Demander une Formation"
+  },
+  "hero": {
+    "badge": "Centre de Certification Industrielle en Angola",
+    "title": "Élevez Vos Compétences.",
+    "titleHighlight": "Certification Mondiale,",
+    "titleSuffix": "Ici Même en Angola.",
+    "subtitle": "Programmes de formation industrielle reconnus internationalement — soudage, CND, API, ISO et plus encore. Des professionnels certifiés prêts pour le marché mondial.",
+    "ctaExplore": "Explorer les Certifications",
+    "ctaCorporate": "Formation d'Entreprise",
+    "stat1Value": "8+",
+    "stat1Label": "Catégories de Certification",
+    "stat2Value": "40+",
+    "stat2Label": "Cours Disponibles",
+    "stat3Value": "3",
+    "stat3Label": "Langues d'Enseignement"
+  },
+  "premium": {
+    "badge": "Programmes Premium",
+    "title": "Parcours de Carrière Certifiés",
+    "subtitle": "Programmes intensifs et complets conçus pour les professionnels qui veulent maîtriser complètement l'industrie.",
+    "cogip": {
+      "tag": "7 Mois • Programme Intensif",
+      "title": "COGIP",
+      "fullName": "Professionnel Certifié de l'Industrie Pétrolière et Gazière",
+      "description": "Le programme le plus complet pour ceux qui souhaitent entrer ou progresser dans l'industrie pétrolière et gazière. Couvre l'inspection, le CND, le QA/QC et les systèmes de gestion.",
+      "cta": "En Savoir Plus"
+    },
+    "cmqip": {
+      "tag": "3 Mois • Axé sur l'Industrie",
+      "title": "CMQIP",
+      "fullName": "Professionnel Certifié QA/QC Mécanique Industriel",
+      "description": "Programme axé sur le contrôle qualité mécanique et l'inspection industrielle. Idéal pour les ingénieurs et inspecteurs recherchant une certification reconnue.",
+      "cta": "En Savoir Plus"
+    }
+  },
+  "catalog": {
+    "badge": "Catalogue de Cours",
+    "title": "Toutes les Certifications",
+    "subtitle": "Filtrez par catégorie pour trouver le cours adapté à votre carrière ou besoin professionnel.",
+    "filterAll": "Tous",
+    "filterWelding": "Soudage",
+    "filterNdt": "CND",
+    "filterApi": "API",
+    "filterIso": "ISO",
+    "duration": "Durée",
+    "level": "Niveau",
+    "learnMore": "En Savoir Plus",
+    "categories": {
+      "welding": "Soudage",
+      "ndt": "Contrôle Non Destructif",
+      "api": "API",
+      "isoSystems": "Systèmes ISO",
+      "isoNdt2": "ISO 9712 Niveau 2",
+      "isoNdt3": "ISO 9712 Niveau 3",
+      "isoSpecialized": "ISO 9712 Spécialisé"
+    },
+    "courses": {
+      "cswip30": {
+        "title": "CSWIP 3.0",
+        "subtitle": "Inspecteur Visuel en Soudage",
+        "duration": "5 Jours",
+        "level": "Niveau Débutant",
+        "category": "welding"
+      },
+      "cswip31": {
+        "title": "CSWIP 3.1",
+        "subtitle": "Inspecteur en Soudage",
+        "duration": "10 Jours",
+        "level": "Intermédiaire",
+        "category": "welding"
+      },
+      "cswip32": {
+        "title": "CSWIP 3.2",
+        "subtitle": "Inspecteur Senior en Soudage (3.2.1 / 3.2.2)",
+        "duration": "10 Jours",
+        "level": "Avancé",
+        "category": "welding"
+      },
+      "bgasGrade2": {
+        "title": "BGAS-CSWIP Grade 2",
+        "subtitle": "Inspecteur en Peinture",
+        "duration": "5 Jours",
+        "level": "Grade 2",
+        "category": "welding"
+      },
+      "bgasGrade1": {
+        "title": "BGAS-CSWIP Grade 1",
+        "subtitle": "Inspecteur Senior en Peinture",
+        "duration": "5 Jours",
+        "level": "Grade 1",
+        "category": "welding"
+      },
+      "asntVt": {
+        "title": "VT – Inspection Visuelle",
+        "subtitle": "ASNT-SNT-TC-1A Niveau II",
+        "duration": "5 Jours",
+        "level": "Niveau II",
+        "category": "ndt"
+      },
+      "asntMt": {
+        "title": "MT – Magnétoscopie",
+        "subtitle": "ASNT-SNT-TC-1A Niveau II",
+        "duration": "5 Jours",
+        "level": "Niveau II",
+        "category": "ndt"
+      },
+      "asntPt": {
+        "title": "PT – Ressuage",
+        "subtitle": "ASNT-SNT-TC-1A Niveau II",
+        "duration": "5 Jours",
+        "level": "Niveau II",
+        "category": "ndt"
+      },
+      "asntUt": {
+        "title": "UT – Ultrasons",
+        "subtitle": "ASNT-SNT-TC-1A Niveau II",
+        "duration": "7 Jours",
+        "level": "Niveau II",
+        "category": "ndt"
+      },
+      "asntRt": {
+        "title": "RT – Radiographie",
+        "subtitle": "ASNT-SNT-TC-1A Niveau II",
+        "duration": "7 Jours",
+        "level": "Niveau II",
+        "category": "ndt"
+      },
+      "asntRtfi": {
+        "title": "RTFI – Interprétation de Films Radiographiques",
+        "subtitle": "ASNT-SNT-TC-1A Niveau II",
+        "duration": "5 Jours",
+        "level": "Niveau II",
+        "category": "ndt"
+      },
+      "api653": {
+        "title": "API 653",
+        "subtitle": "Inspecteur de Réservoirs de Stockage",
+        "duration": "5 Jours",
+        "level": "Professionnel",
+        "category": "api"
+      },
+      "api570": {
+        "title": "API 570",
+        "subtitle": "Inspecteur de Canalisations",
+        "duration": "5 Jours",
+        "level": "Professionnel",
+        "category": "api"
+      },
+      "api510": {
+        "title": "API 510",
+        "subtitle": "Inspecteur de Récipients sous Pression",
+        "duration": "5 Jours",
+        "level": "Professionnel",
+        "category": "api"
+      },
+      "iso9001": {
+        "title": "ISO 9001:2015",
+        "subtitle": "Système de Management de la Qualité – Auditeur Principal",
+        "duration": "5 Jours",
+        "level": "Auditeur Principal",
+        "category": "isoSystems",
+        "dualAudience": true
+      },
+      "iso14001": {
+        "title": "ISO 14001:2015",
+        "subtitle": "Système de Management Environnemental – Auditeur Principal",
+        "duration": "5 Jours",
+        "level": "Auditeur Principal",
+        "category": "isoSystems",
+        "dualAudience": true
+      },
+      "iso45001": {
+        "title": "ISO 45001:2018",
+        "subtitle": "Santé et Sécurité au Travail – Auditeur Principal",
+        "duration": "5 Jours",
+        "level": "Auditeur Principal",
+        "category": "isoSystems",
+        "dualAudience": true
+      },
+      "iso9712WiL2": {
+        "title": "Inspection Soudage Niveau 2",
+        "subtitle": "ISO 9712 – Certification CND",
+        "duration": "10 Jours",
+        "level": "Niveau 2",
+        "category": "isoNdt2"
+      },
+      "iso9712MtL2": {
+        "title": "MT Niveau 2 (Multi)",
+        "subtitle": "ISO 9712 – Magnétoscopie",
+        "duration": "5 Jours",
+        "level": "Niveau 2",
+        "category": "isoNdt2"
+      },
+      "iso9712VtL2": {
+        "title": "VT Niveau 2",
+        "subtitle": "ISO 9712 – Inspection Visuelle",
+        "duration": "5 Jours",
+        "level": "Niveau 2",
+        "category": "isoNdt2"
+      },
+      "iso9712RtfiL2": {
+        "title": "RTFI Niveau 2 (Soudures)",
+        "subtitle": "ISO 9712 – Interprétation de Films",
+        "duration": "5 Jours",
+        "level": "Niveau 2",
+        "category": "isoNdt2"
+      },
+      "iso9712PtL2": {
+        "title": "PT Niveau 2 (Multi)",
+        "subtitle": "ISO 9712 – Ressuage",
+        "duration": "5 Jours",
+        "level": "Niveau 2",
+        "category": "isoNdt2"
+      },
+      "iso9712UtL2": {
+        "title": "UT Niveau 2 (Soudures)",
+        "subtitle": "ISO 9712 – Ultrasons",
+        "duration": "7 Jours",
+        "level": "Niveau 2",
+        "category": "isoNdt2"
+      },
+      "iso9712RtL2": {
+        "title": "RT Niveau 2 (Soudures)",
+        "subtitle": "ISO 9712 – Radiographie",
+        "duration": "7 Jours",
+        "level": "Niveau 2",
+        "category": "isoNdt2"
+      },
+      "iso9712PautL2": {
+        "title": "PAUT Niveau 2 (Soudures)",
+        "subtitle": "ISO 9712 – Ultrasons à Réseau Phasé",
+        "duration": "7 Jours",
+        "level": "Niveau 2 Avancé",
+        "category": "isoNdt2"
+      },
+      "iso9712TofdL2": {
+        "title": "TOFD Niveau 2 (Soudures)",
+        "subtitle": "ISO 9712 – Diffraction en Temps de Vol",
+        "duration": "7 Jours",
+        "level": "Niveau 2 Avancé",
+        "category": "isoNdt2"
+      },
+      "iso9712WiL3": {
+        "title": "Inspection Soudage Niveau 3",
+        "subtitle": "ISO 9712 – Certification CND",
+        "duration": "10 Jours",
+        "level": "Niveau 3",
+        "category": "isoNdt3"
+      },
+      "iso9712BasicL3": {
+        "title": "BASIQUE Niveau 3",
+        "subtitle": "ISO 9712 – Module CND de Base",
+        "duration": "5 Jours",
+        "level": "Niveau 3",
+        "category": "isoNdt3"
+      },
+      "iso9712MtL3": {
+        "title": "MT Niveau 3 (Multi)",
+        "subtitle": "ISO 9712 – Magnétoscopie",
+        "duration": "5 Jours",
+        "level": "Niveau 3",
+        "category": "isoNdt3"
+      },
+      "iso9712VtL3": {
+        "title": "VT Niveau 3",
+        "subtitle": "ISO 9712 – Inspection Visuelle",
+        "duration": "5 Jours",
+        "level": "Niveau 3",
+        "category": "isoNdt3"
+      },
+      "iso9712RtfiL3": {
+        "title": "RTFI Niveau 3 (Soudures)",
+        "subtitle": "ISO 9712 – Interprétation de Films",
+        "duration": "5 Jours",
+        "level": "Niveau 3",
+        "category": "isoNdt3"
+      },
+      "iso9712PtL3": {
+        "title": "PT Niveau 3 (Multi)",
+        "subtitle": "ISO 9712 – Ressuage",
+        "duration": "5 Jours",
+        "level": "Niveau 3",
+        "category": "isoNdt3"
+      },
+      "iso9712UtL3": {
+        "title": "UT Niveau 3 (Soudures)",
+        "subtitle": "ISO 9712 – Ultrasons",
+        "duration": "7 Jours",
+        "level": "Niveau 3",
+        "category": "isoNdt3"
+      },
+      "iso9712RtL3": {
+        "title": "RT Niveau 3 (Soudures)",
+        "subtitle": "ISO 9712 – Radiographie",
+        "duration": "7 Jours",
+        "level": "Niveau 3",
+        "category": "isoNdt3"
+      },
+      "iso9712PautL3": {
+        "title": "PAUT Niveau 3 (Soudures)",
+        "subtitle": "ISO 9712 – Ultrasons à Réseau Phasé",
+        "duration": "7 Jours",
+        "level": "Niveau 3 Avancé",
+        "category": "isoNdt3"
+      },
+      "iso9712TofdL3": {
+        "title": "TOFD Niveau 3 (Soudures)",
+        "subtitle": "ISO 9712 – Diffraction en Temps de Vol",
+        "duration": "7 Jours",
+        "level": "Niveau 3 Avancé",
+        "category": "isoNdt3"
+      },
+      "autData": {
+        "title": "Interprétation des Données AUT",
+        "subtitle": "ISO 9712 – Spécialisé",
+        "duration": "5 Jours",
+        "level": "Spécialisé",
+        "category": "isoSpecialized"
+      },
+      "pautData": {
+        "title": "Interprétation des Données PAUT",
+        "subtitle": "ISO 9712 – Spécialisé",
+        "duration": "5 Jours",
+        "level": "Spécialisé",
+        "category": "isoSpecialized"
+      },
+      "tofdData": {
+        "title": "Interprétation des Données TOFD",
+        "subtitle": "ISO 9712 – Spécialisé",
+        "duration": "5 Jours",
+        "level": "Spécialisé",
+        "category": "isoSpecialized"
+      },
+      "eddyCurrentWelds": {
+        "title": "Courants de Foucault (Soudures)",
+        "subtitle": "ISO 9712 – Spécialisé",
+        "duration": "5 Jours",
+        "level": "Spécialisé",
+        "category": "isoSpecialized"
+      },
+      "eddyCurrentTube": {
+        "title": "Courants de Foucault (Tubes)",
+        "subtitle": "ISO 9712 – Spécialisé",
+        "duration": "5 Jours",
+        "level": "Spécialisé",
+        "category": "isoSpecialized"
+      },
+      "acfm": {
+        "title": "ACFM",
+        "subtitle": "Mesure du Champ Alternatif",
+        "duration": "5 Jours",
+        "level": "Spécialisé",
+        "category": "isoSpecialized"
+      },
+      "vtSpecialized": {
+        "title": "Inspection Visuelle – Spécialisé",
+        "subtitle": "ISO 9712 – Spécialisé",
+        "duration": "3 Jours",
+        "level": "Spécialisé",
+        "category": "isoSpecialized"
+      }
+    }
+  },
+  "dualAudience": {
+    "badge": "Pour Qui ?",
+    "title": "Formation pour Tous les Objectifs",
+    "individual": {
+      "tag": "Professionnels Individuels",
+      "title": "Faites Progresser Votre Carrière",
+      "description": "Obtenez des accréditations reconnues internationalement qui ouvrent des portes sur les marchés mondiaux du pétrole, du gaz, de la construction et de l'industrie.",
+      "point1": "Certifications reconnues mondialement",
+      "point2": "Augmentez votre salaire et votre valeur marchande",
+      "point3": "Progression de carrière structurée (Niveau 2 → 3)",
+      "point4": "Formateurs avec une vraie expérience industrielle",
+      "cta": "Voir les Cours pour Professionnels"
+    },
+    "corporate": {
+      "tag": "Entreprises & Organisations",
+      "title": "Construisez la Conformité et la Capacité",
+      "description": "Développez les compétences de votre main-d'œuvre locale, assurez la conformité réglementaire et renforcez vos offres d'appel d'offres avec des équipes certifiées.",
+      "point1": "Conformité ISO 9001, 14001 et 45001",
+      "point2": "Main-d'œuvre locale certifiée",
+      "point3": "Programmes de formation en entreprise disponibles",
+      "point4": "Prêts pour les appels d'offres et audits",
+      "isoHighlight": "Les cours Auditeur Principal ISO sont spécialement structurés pour les professionnels individuels ET les entreprises nécessitant une conformité organisationnelle.",
+      "cta": "Demander une Proposition d'Entreprise"
+    }
+  },
+  "footer": {
+    "tagline": "Formation Industrielle de Classe Mondiale en Angola.",
+    "quickLinks": "Liens Rapides",
+    "contact": "Contact",
+    "whatsapp": "WhatsApp Direct",
+    "whatsappSubtext": "Réponse rapide via WhatsApp",
+    "email": "E-mail",
+    "inquiry": "Envoyer un Message",
+    "inquiryName": "Votre nom",
+    "inquiryMessage": "Votre message",
+    "inquirySend": "Envoyer",
+    "rights": "Tous droits réservés.",
+    "certifications": "Certifications"
+  }
+}

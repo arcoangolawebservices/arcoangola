@@ -1,0 +1,410 @@
+{
+  "nav": {
+    "courses": "Courses",
+    "corporate": "Corporate",
+    "contact": "Contact",
+    "language": "Language",
+    "requestTraining": "Request Training"
+  },
+  "hero": {
+    "badge": "Industrial Certification Centre in Angola",
+    "title": "Elevate Your Skills.",
+    "titleHighlight": "Global Certification,",
+    "titleSuffix": "Right Here in Angola.",
+    "subtitle": "Internationally recognised industrial training programmes — welding, NDT, API, ISO and more. Certified professionals ready for the global market.",
+    "ctaExplore": "Explore Certifications",
+    "ctaCorporate": "Corporate Training",
+    "stat1Value": "8+",
+    "stat1Label": "Certification Categories",
+    "stat2Value": "40+",
+    "stat2Label": "Courses Available",
+    "stat3Value": "3",
+    "stat3Label": "Languages of Instruction"
+  },
+  "premium": {
+    "badge": "Premium Programmes",
+    "title": "Certified Career Tracks",
+    "subtitle": "Intensive, comprehensive programmes designed for professionals who want to fully master the industry.",
+    "cogip": {
+      "tag": "7 Months • Intensive Programme",
+      "title": "COGIP",
+      "fullName": "Certified Oil & Gas Industry Professional",
+      "description": "The most comprehensive programme for those entering or advancing in the oil and gas industry. Covers inspection, NDT, QA/QC and management systems.",
+      "cta": "Learn More"
+    },
+    "cmqip": {
+      "tag": "3 Months • Industry Focused",
+      "title": "CMQIP",
+      "fullName": "Certified Mechanical QA/QC Industry Professional",
+      "description": "Focused programme in mechanical quality control and industrial inspection. Ideal for engineers and inspectors seeking recognised certification.",
+      "cta": "Learn More"
+    }
+  },
+  "catalog": {
+    "badge": "Course Catalogue",
+    "title": "All Certifications",
+    "subtitle": "Filter by category to find the right course for your career or business need.",
+    "filterAll": "All",
+    "filterWelding": "Welding",
+    "filterNdt": "NDT",
+    "filterApi": "API",
+    "filterIso": "ISO",
+    "duration": "Duration",
+    "level": "Level",
+    "learnMore": "Learn More",
+    "categories": {
+      "welding": "Welding",
+      "ndt": "Non-Destructive Testing",
+      "api": "API",
+      "isoSystems": "ISO Systems",
+      "isoNdt2": "ISO 9712 Level 2",
+      "isoNdt3": "ISO 9712 Level 3",
+      "isoSpecialized": "ISO 9712 Specialised"
+    },
+    "courses": {
+      "cswip30": {
+        "title": "CSWIP 3.0",
+        "subtitle": "Visual Welding Inspector",
+        "duration": "5 Days",
+        "level": "Entry Level",
+        "category": "welding"
+      },
+      "cswip31": {
+        "title": "CSWIP 3.1",
+        "subtitle": "Welding Inspector",
+        "duration": "10 Days",
+        "level": "Intermediate",
+        "category": "welding"
+      },
+      "cswip32": {
+        "title": "CSWIP 3.2",
+        "subtitle": "Senior Welding Inspector (3.2.1 / 3.2.2)",
+        "duration": "10 Days",
+        "level": "Advanced",
+        "category": "welding"
+      },
+      "bgasGrade2": {
+        "title": "BGAS-CSWIP Grade 2",
+        "subtitle": "Painting Inspector",
+        "duration": "5 Days",
+        "level": "Grade 2",
+        "category": "welding"
+      },
+      "bgasGrade1": {
+        "title": "BGAS-CSWIP Grade 1",
+        "subtitle": "Senior Painting Inspector",
+        "duration": "5 Days",
+        "level": "Grade 1",
+        "category": "welding"
+      },
+      "asntVt": {
+        "title": "VT – Visual Testing",
+        "subtitle": "ASNT-SNT-TC-1A Level II",
+        "duration": "5 Days",
+        "level": "Level II",
+        "category": "ndt"
+      },
+      "asntMt": {
+        "title": "MT – Magnetic Particle Testing",
+        "subtitle": "ASNT-SNT-TC-1A Level II",
+        "duration": "5 Days",
+        "level": "Level II",
+        "category": "ndt"
+      },
+      "asntPt": {
+        "title": "PT – Dye Penetrant Testing",
+        "subtitle": "ASNT-SNT-TC-1A Level II",
+        "duration": "5 Days",
+        "level": "Level II",
+        "category": "ndt"
+      },
+      "asntUt": {
+        "title": "UT – Ultrasonic Testing",
+        "subtitle": "ASNT-SNT-TC-1A Level II",
+        "duration": "7 Days",
+        "level": "Level II",
+        "category": "ndt"
+      },
+      "asntRt": {
+        "title": "RT – Radiographic Testing",
+        "subtitle": "ASNT-SNT-TC-1A Level II",
+        "duration": "7 Days",
+        "level": "Level II",
+        "category": "ndt"
+      },
+      "asntRtfi": {
+        "title": "RTFI – Radiographic Film Interpretation",
+        "subtitle": "ASNT-SNT-TC-1A Level II",
+        "duration": "5 Days",
+        "level": "Level II",
+        "category": "ndt"
+      },
+      "api653": {
+        "title": "API 653",
+        "subtitle": "Aboveground Storage Tank Inspector",
+        "duration": "5 Days",
+        "level": "Professional",
+        "category": "api"
+      },
+      "api570": {
+        "title": "API 570",
+        "subtitle": "Piping Inspector",
+        "duration": "5 Days",
+        "level": "Professional",
+        "category": "api"
+      },
+      "api510": {
+        "title": "API 510",
+        "subtitle": "Pressure Vessel Inspector",
+        "duration": "5 Days",
+        "level": "Professional",
+        "category": "api"
+      },
+      "iso9001": {
+        "title": "ISO 9001:2015",
+        "subtitle": "Quality Management System – Lead Auditor",
+        "duration": "5 Days",
+        "level": "Lead Auditor",
+        "category": "isoSystems",
+        "dualAudience": true
+      },
+      "iso14001": {
+        "title": "ISO 14001:2015",
+        "subtitle": "Environmental Management System – Lead Auditor",
+        "duration": "5 Days",
+        "level": "Lead Auditor",
+        "category": "isoSystems",
+        "dualAudience": true
+      },
+      "iso45001": {
+        "title": "ISO 45001:2018",
+        "subtitle": "Occupational Health & Safety Management – Lead Auditor",
+        "duration": "5 Days",
+        "level": "Lead Auditor",
+        "category": "isoSystems",
+        "dualAudience": true
+      },
+      "iso9712WiL2": {
+        "title": "Welding Inspection Level 2",
+        "subtitle": "ISO 9712 – NDT Certification",
+        "duration": "10 Days",
+        "level": "Level 2",
+        "category": "isoNdt2"
+      },
+      "iso9712MtL2": {
+        "title": "MT Level 2 (Multi)",
+        "subtitle": "ISO 9712 – Magnetic Particle Testing",
+        "duration": "5 Days",
+        "level": "Level 2",
+        "category": "isoNdt2"
+      },
+      "iso9712VtL2": {
+        "title": "VT Level 2",
+        "subtitle": "ISO 9712 – Visual Testing",
+        "duration": "5 Days",
+        "level": "Level 2",
+        "category": "isoNdt2"
+      },
+      "iso9712RtfiL2": {
+        "title": "RTFI Level 2 (Welds)",
+        "subtitle": "ISO 9712 – Radiographic Film Interpretation",
+        "duration": "5 Days",
+        "level": "Level 2",
+        "category": "isoNdt2"
+      },
+      "iso9712PtL2": {
+        "title": "PT Level 2 (Multi)",
+        "subtitle": "ISO 9712 – Dye Penetrant Testing",
+        "duration": "5 Days",
+        "level": "Level 2",
+        "category": "isoNdt2"
+      },
+      "iso9712UtL2": {
+        "title": "UT Level 2 (Welds)",
+        "subtitle": "ISO 9712 – Ultrasonic Testing",
+        "duration": "7 Days",
+        "level": "Level 2",
+        "category": "isoNdt2"
+      },
+      "iso9712RtL2": {
+        "title": "RT Level 2 (Welds)",
+        "subtitle": "ISO 9712 – Radiographic Testing",
+        "duration": "7 Days",
+        "level": "Level 2",
+        "category": "isoNdt2"
+      },
+      "iso9712PautL2": {
+        "title": "PAUT Level 2 (Welds)",
+        "subtitle": "ISO 9712 – Phased Array Ultrasonic Testing",
+        "duration": "7 Days",
+        "level": "Level 2 Advanced",
+        "category": "isoNdt2"
+      },
+      "iso9712TofdL2": {
+        "title": "TOFD Level 2 (Welds)",
+        "subtitle": "ISO 9712 – Time of Flight Diffraction",
+        "duration": "7 Days",
+        "level": "Level 2 Advanced",
+        "category": "isoNdt2"
+      },
+      "iso9712WiL3": {
+        "title": "Welding Inspection Level 3",
+        "subtitle": "ISO 9712 – NDT Certification",
+        "duration": "10 Days",
+        "level": "Level 3",
+        "category": "isoNdt3"
+      },
+      "iso9712BasicL3": {
+        "title": "BASIC Level 3",
+        "subtitle": "ISO 9712 – NDT Basic Module",
+        "duration": "5 Days",
+        "level": "Level 3",
+        "category": "isoNdt3"
+      },
+      "iso9712MtL3": {
+        "title": "MT Level 3 (Multi)",
+        "subtitle": "ISO 9712 – Magnetic Particle Testing",
+        "duration": "5 Days",
+        "level": "Level 3",
+        "category": "isoNdt3"
+      },
+      "iso9712VtL3": {
+        "title": "VT Level 3",
+        "subtitle": "ISO 9712 – Visual Testing",
+        "duration": "5 Days",
+        "level": "Level 3",
+        "category": "isoNdt3"
+      },
+      "iso9712RtfiL3": {
+        "title": "RTFI Level 3 (Welds)",
+        "subtitle": "ISO 9712 – Radiographic Film Interpretation",
+        "duration": "5 Days",
+        "level": "Level 3",
+        "category": "isoNdt3"
+      },
+      "iso9712PtL3": {
+        "title": "PT Level 3 (Multi)",
+        "subtitle": "ISO 9712 – Dye Penetrant Testing",
+        "duration": "5 Days",
+        "level": "Level 3",
+        "category": "isoNdt3"
+      },
+      "iso9712UtL3": {
+        "title": "UT Level 3 (Welds)",
+        "subtitle": "ISO 9712 – Ultrasonic Testing",
+        "duration": "7 Days",
+        "level": "Level 3",
+        "category": "isoNdt3"
+      },
+      "iso9712RtL3": {
+        "title": "RT Level 3 (Welds)",
+        "subtitle": "ISO 9712 – Radiographic Testing",
+        "duration": "7 Days",
+        "level": "Level 3",
+        "category": "isoNdt3"
+      },
+      "iso9712PautL3": {
+        "title": "PAUT Level 3 (Welds)",
+        "subtitle": "ISO 9712 – Phased Array Ultrasonic Testing",
+        "duration": "7 Days",
+        "level": "Level 3 Advanced",
+        "category": "isoNdt3"
+      },
+      "iso9712TofdL3": {
+        "title": "TOFD Level 3 (Welds)",
+        "subtitle": "ISO 9712 – Time of Flight Diffraction",
+        "duration": "7 Days",
+        "level": "Level 3 Advanced",
+        "category": "isoNdt3"
+      },
+      "autData": {
+        "title": "AUT Data Interpretation",
+        "subtitle": "ISO 9712 – Specialised",
+        "duration": "5 Days",
+        "level": "Specialised",
+        "category": "isoSpecialized"
+      },
+      "pautData": {
+        "title": "PAUT Data Interpretation",
+        "subtitle": "ISO 9712 – Specialised",
+        "duration": "5 Days",
+        "level": "Specialised",
+        "category": "isoSpecialized"
+      },
+      "tofdData": {
+        "title": "TOFD Data Interpretation",
+        "subtitle": "ISO 9712 – Specialised",
+        "duration": "5 Days",
+        "level": "Specialised",
+        "category": "isoSpecialized"
+      },
+      "eddyCurrentWelds": {
+        "title": "Eddy Current (Welds)",
+        "subtitle": "ISO 9712 – Specialised",
+        "duration": "5 Days",
+        "level": "Specialised",
+        "category": "isoSpecialized"
+      },
+      "eddyCurrentTube": {
+        "title": "Eddy Current (Tube Testing)",
+        "subtitle": "ISO 9712 – Specialised",
+        "duration": "5 Days",
+        "level": "Specialised",
+        "category": "isoSpecialized"
+      },
+      "acfm": {
+        "title": "ACFM",
+        "subtitle": "Alternating Current Field Measurement",
+        "duration": "5 Days",
+        "level": "Specialised",
+        "category": "isoSpecialized"
+      },
+      "vtSpecialized": {
+        "title": "Visual Testing – Specialised",
+        "subtitle": "ISO 9712 – Specialised",
+        "duration": "3 Days",
+        "level": "Specialised",
+        "category": "isoSpecialized"
+      }
+    }
+  },
+  "dualAudience": {
+    "badge": "Who Is This For?",
+    "title": "Training for Every Goal",
+    "individual": {
+      "tag": "Individual Professionals",
+      "title": "Advance Your Career",
+      "description": "Gain internationally recognised credentials that open doors in the global oil, gas, construction and industrial markets.",
+      "point1": "Globally recognised certifications",
+      "point2": "Increase your salary and market value",
+      "point3": "Structured career progression (Level 2 → 3)",
+      "point4": "Instructors with real industrial experience",
+      "cta": "View Courses for Professionals"
+    },
+    "corporate": {
+      "tag": "Businesses & Enterprises",
+      "title": "Build Compliance and Capacity",
+      "description": "Upskill your local workforce, ensure regulatory compliance and strengthen your tender bids with certified teams.",
+      "point1": "ISO 9001, 14001 and 45001 compliance",
+      "point2": "Certified local workforce",
+      "point3": "In-company training programmes available",
+      "point4": "Tender and audit ready",
+      "isoHighlight": "The ISO Lead Auditor courses are uniquely structured for both individual professionals upgrading credentials AND businesses requiring organisational compliance.",
+      "cta": "Request Corporate Proposal"
+    }
+  },
+  "footer": {
+    "tagline": "World-Class Industrial Training in Angola.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "whatsapp": "Direct WhatsApp",
+    "whatsappSubtext": "Fast response via WhatsApp",
+    "email": "Email",
+    "inquiry": "Send a Message",
+    "inquiryName": "Your name",
+    "inquiryMessage": "Your message",
+    "inquirySend": "Send",
+    "rights": "All rights reserved.",
+    "certifications": "Certifications"
+  }
+}

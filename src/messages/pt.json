@@ -1,0 +1,410 @@
+{
+  "nav": {
+    "courses": "Cursos",
+    "corporate": "Empresas",
+    "contact": "Contacto",
+    "language": "Idioma",
+    "requestTraining": "Solicitar Formação"
+  },
+  "hero": {
+    "badge": "Centro de Certificação Industrial em Angola",
+    "title": "Eleve as Suas Competências.",
+    "titleHighlight": "Certificação Global,",
+    "titleSuffix": "Localmente em Angola.",
+    "subtitle": "Programas de formação industrial reconhecidos internacionalmente — soldagem, END, API, ISO e muito mais. Profissionais certificados prontos para o mercado global.",
+    "ctaExplore": "Explorar Certificações",
+    "ctaCorporate": "Formação Empresarial",
+    "stat1Value": "8+",
+    "stat1Label": "Categorias de Certificação",
+    "stat2Value": "40+",
+    "stat2Label": "Cursos Disponíveis",
+    "stat3Value": "3",
+    "stat3Label": "Idiomas de Ensino"
+  },
+  "premium": {
+    "badge": "Programas Premium",
+    "title": "Trilhas de Carreira Certificadas",
+    "subtitle": "Programas intensivos e abrangentes desenhados para profissionais que querem dominar completamente a indústria.",
+    "cogip": {
+      "tag": "7 Meses • Programa Intensivo",
+      "title": "COGIP",
+      "fullName": "Profissional Certificado da Indústria de Petróleo e Gás",
+      "description": "O programa mais abrangente para quem quer entrar ou avançar na indústria de petróleo e gás. Cobre inspeção, END, QA/QC e gestão de sistemas.",
+      "cta": "Saber Mais"
+    },
+    "cmqip": {
+      "tag": "3 Meses • Foco Industrial",
+      "title": "CMQIP",
+      "fullName": "Profissional Certificado de QA/QC Mecânico",
+      "description": "Programa focado em controlo de qualidade mecânico e inspeção industrial. Ideal para engenheiros e inspetores que procuram certificação reconhecida.",
+      "cta": "Saber Mais"
+    }
+  },
+  "catalog": {
+    "badge": "Catálogo de Cursos",
+    "title": "Todas as Certificações",
+    "subtitle": "Filtre por categoria para encontrar o curso certo para a sua carreira ou necessidade empresarial.",
+    "filterAll": "Todos",
+    "filterWelding": "Soldagem",
+    "filterNdt": "END",
+    "filterApi": "API",
+    "filterIso": "ISO",
+    "duration": "Duração",
+    "level": "Nível",
+    "learnMore": "Saber Mais",
+    "categories": {
+      "welding": "Soldagem",
+      "ndt": "Ensaios Não Destrutivos",
+      "api": "API",
+      "isoSystems": "Sistemas ISO",
+      "isoNdt2": "ISO 9712 Nível 2",
+      "isoNdt3": "ISO 9712 Nível 3",
+      "isoSpecialized": "ISO 9712 Especializado"
+    },
+    "courses": {
+      "cswip30": {
+        "title": "CSWIP 3.0",
+        "subtitle": "Inspetor Visual de Soldagem",
+        "duration": "5 Dias",
+        "level": "Nível de Entrada",
+        "category": "welding"
+      },
+      "cswip31": {
+        "title": "CSWIP 3.1",
+        "subtitle": "Inspetor de Soldagem",
+        "duration": "10 Dias",
+        "level": "Intermédio",
+        "category": "welding"
+      },
+      "cswip32": {
+        "title": "CSWIP 3.2",
+        "subtitle": "Inspetor Sénior de Soldagem (3.2.1 / 3.2.2)",
+        "duration": "10 Dias",
+        "level": "Avançado",
+        "category": "welding"
+      },
+      "bgasGrade2": {
+        "title": "BGAS-CSWIP Grau 2",
+        "subtitle": "Inspetor de Pintura",
+        "duration": "5 Dias",
+        "level": "Grau 2",
+        "category": "welding"
+      },
+      "bgasGrade1": {
+        "title": "BGAS-CSWIP Grau 1",
+        "subtitle": "Inspetor de Pintura Sénior",
+        "duration": "5 Dias",
+        "level": "Grau 1",
+        "category": "welding"
+      },
+      "asntVt": {
+        "title": "VT – Inspeção Visual",
+        "subtitle": "ASNT-SNT-TC-1A Nível II",
+        "duration": "5 Dias",
+        "level": "Nível II",
+        "category": "ndt"
+      },
+      "asntMt": {
+        "title": "MT – Partículas Magnéticas",
+        "subtitle": "ASNT-SNT-TC-1A Nível II",
+        "duration": "5 Dias",
+        "level": "Nível II",
+        "category": "ndt"
+      },
+      "asntPt": {
+        "title": "PT – Líquidos Penetrantes",
+        "subtitle": "ASNT-SNT-TC-1A Nível II",
+        "duration": "5 Dias",
+        "level": "Nível II",
+        "category": "ndt"
+      },
+      "asntUt": {
+        "title": "UT – Ultrassons",
+        "subtitle": "ASNT-SNT-TC-1A Nível II",
+        "duration": "7 Dias",
+        "level": "Nível II",
+        "category": "ndt"
+      },
+      "asntRt": {
+        "title": "RT – Radiografia",
+        "subtitle": "ASNT-SNT-TC-1A Nível II",
+        "duration": "7 Dias",
+        "level": "Nível II",
+        "category": "ndt"
+      },
+      "asntRtfi": {
+        "title": "RTFI – Interpretação de Filmes",
+        "subtitle": "ASNT-SNT-TC-1A Nível II",
+        "duration": "5 Dias",
+        "level": "Nível II",
+        "category": "ndt"
+      },
+      "api653": {
+        "title": "API 653",
+        "subtitle": "Inspetor de Tanques de Armazenamento",
+        "duration": "5 Dias",
+        "level": "Profissional",
+        "category": "api"
+      },
+      "api570": {
+        "title": "API 570",
+        "subtitle": "Inspetor de Tubagens",
+        "duration": "5 Dias",
+        "level": "Profissional",
+        "category": "api"
+      },
+      "api510": {
+        "title": "API 510",
+        "subtitle": "Inspetor de Vasos de Pressão",
+        "duration": "5 Dias",
+        "level": "Profissional",
+        "category": "api"
+      },
+      "iso9001": {
+        "title": "ISO 9001:2015",
+        "subtitle": "Sistema de Gestão da Qualidade – Lead Auditor",
+        "duration": "5 Dias",
+        "level": "Lead Auditor",
+        "category": "isoSystems",
+        "dualAudience": true
+      },
+      "iso14001": {
+        "title": "ISO 14001:2015",
+        "subtitle": "Sistema de Gestão Ambiental – Lead Auditor",
+        "duration": "5 Dias",
+        "level": "Lead Auditor",
+        "category": "isoSystems",
+        "dualAudience": true
+      },
+      "iso45001": {
+        "title": "ISO 45001:2018",
+        "subtitle": "Segurança e Saúde Ocupacional – Lead Auditor",
+        "duration": "5 Dias",
+        "level": "Lead Auditor",
+        "category": "isoSystems",
+        "dualAudience": true
+      },
+      "iso9712WiL2": {
+        "title": "Inspeção de Soldagem Nível 2",
+        "subtitle": "ISO 9712 – Certificação END",
+        "duration": "10 Dias",
+        "level": "Nível 2",
+        "category": "isoNdt2"
+      },
+      "iso9712MtL2": {
+        "title": "MT Nível 2 (Multi)",
+        "subtitle": "ISO 9712 – Partículas Magnéticas",
+        "duration": "5 Dias",
+        "level": "Nível 2",
+        "category": "isoNdt2"
+      },
+      "iso9712VtL2": {
+        "title": "VT Nível 2",
+        "subtitle": "ISO 9712 – Inspeção Visual",
+        "duration": "5 Dias",
+        "level": "Nível 2",
+        "category": "isoNdt2"
+      },
+      "iso9712RtfiL2": {
+        "title": "RTFI Nível 2 (Soldaduras)",
+        "subtitle": "ISO 9712 – Interpretação de Filmes",
+        "duration": "5 Dias",
+        "level": "Nível 2",
+        "category": "isoNdt2"
+      },
+      "iso9712PtL2": {
+        "title": "PT Nível 2 (Multi)",
+        "subtitle": "ISO 9712 – Líquidos Penetrantes",
+        "duration": "5 Dias",
+        "level": "Nível 2",
+        "category": "isoNdt2"
+      },
+      "iso9712UtL2": {
+        "title": "UT Nível 2 (Soldaduras)",
+        "subtitle": "ISO 9712 – Ultrassons",
+        "duration": "7 Dias",
+        "level": "Nível 2",
+        "category": "isoNdt2"
+      },
+      "iso9712RtL2": {
+        "title": "RT Nível 2 (Soldaduras)",
+        "subtitle": "ISO 9712 – Radiografia",
+        "duration": "7 Dias",
+        "level": "Nível 2",
+        "category": "isoNdt2"
+      },
+      "iso9712PautL2": {
+        "title": "PAUT Nível 2 (Soldaduras)",
+        "subtitle": "ISO 9712 – Ultrassons Phased Array",
+        "duration": "7 Dias",
+        "level": "Nível 2 Avançado",
+        "category": "isoNdt2"
+      },
+      "iso9712TofdL2": {
+        "title": "TOFD Nível 2 (Soldaduras)",
+        "subtitle": "ISO 9712 – Difração de Tempo de Voo",
+        "duration": "7 Dias",
+        "level": "Nível 2 Avançado",
+        "category": "isoNdt2"
+      },
+      "iso9712WiL3": {
+        "title": "Inspeção de Soldagem Nível 3",
+        "subtitle": "ISO 9712 – Certificação END",
+        "duration": "10 Dias",
+        "level": "Nível 3",
+        "category": "isoNdt3"
+      },
+      "iso9712BasicL3": {
+        "title": "BÁSICO Nível 3",
+        "subtitle": "ISO 9712 – Módulo Básico END",
+        "duration": "5 Dias",
+        "level": "Nível 3",
+        "category": "isoNdt3"
+      },
+      "iso9712MtL3": {
+        "title": "MT Nível 3 (Multi)",
+        "subtitle": "ISO 9712 – Partículas Magnéticas",
+        "duration": "5 Dias",
+        "level": "Nível 3",
+        "category": "isoNdt3"
+      },
+      "iso9712VtL3": {
+        "title": "VT Nível 3",
+        "subtitle": "ISO 9712 – Inspeção Visual",
+        "duration": "5 Dias",
+        "level": "Nível 3",
+        "category": "isoNdt3"
+      },
+      "iso9712RtfiL3": {
+        "title": "RTFI Nível 3 (Soldaduras)",
+        "subtitle": "ISO 9712 – Interpretação de Filmes",
+        "duration": "5 Dias",
+        "level": "Nível 3",
+        "category": "isoNdt3"
+      },
+      "iso9712PtL3": {
+        "title": "PT Nível 3 (Multi)",
+        "subtitle": "ISO 9712 – Líquidos Penetrantes",
+        "duration": "5 Dias",
+        "level": "Nível 3",
+        "category": "isoNdt3"
+      },
+      "iso9712UtL3": {
+        "title": "UT Nível 3 (Soldaduras)",
+        "subtitle": "ISO 9712 – Ultrassons",
+        "duration": "7 Dias",
+        "level": "Nível 3",
+        "category": "isoNdt3"
+      },
+      "iso9712RtL3": {
+        "title": "RT Nível 3 (Soldaduras)",
+        "subtitle": "ISO 9712 – Radiografia",
+        "duration": "7 Dias",
+        "level": "Nível 3",
+        "category": "isoNdt3"
+      },
+      "iso9712PautL3": {
+        "title": "PAUT Nível 3 (Soldaduras)",
+        "subtitle": "ISO 9712 – Ultrassons Phased Array",
+        "duration": "7 Dias",
+        "level": "Nível 3 Avançado",
+        "category": "isoNdt3"
+      },
+      "iso9712TofdL3": {
+        "title": "TOFD Nível 3 (Soldaduras)",
+        "subtitle": "ISO 9712 – Difração de Tempo de Voo",
+        "duration": "7 Dias",
+        "level": "Nível 3 Avançado",
+        "category": "isoNdt3"
+      },
+      "autData": {
+        "title": "Interpretação de Dados AUT",
+        "subtitle": "ISO 9712 – Especializado",
+        "duration": "5 Dias",
+        "level": "Especializado",
+        "category": "isoSpecialized"
+      },
+      "pautData": {
+        "title": "Interpretação de Dados PAUT",
+        "subtitle": "ISO 9712 – Especializado",
+        "duration": "5 Dias",
+        "level": "Especializado",
+        "category": "isoSpecialized"
+      },
+      "tofdData": {
+        "title": "Interpretação de Dados TOFD",
+        "subtitle": "ISO 9712 – Especializado",
+        "duration": "5 Dias",
+        "level": "Especializado",
+        "category": "isoSpecialized"
+      },
+      "eddyCurrentWelds": {
+        "title": "Correntes de Foucault (Soldaduras)",
+        "subtitle": "ISO 9712 – Especializado",
+        "duration": "5 Dias",
+        "level": "Especializado",
+        "category": "isoSpecialized"
+      },
+      "eddyCurrentTube": {
+        "title": "Correntes de Foucault (Tubagens)",
+        "subtitle": "ISO 9712 – Especializado",
+        "duration": "5 Dias",
+        "level": "Especializado",
+        "category": "isoSpecialized"
+      },
+      "acfm": {
+        "title": "ACFM",
+        "subtitle": "Medição de Campo Alternado",
+        "duration": "5 Dias",
+        "level": "Especializado",
+        "category": "isoSpecialized"
+      },
+      "vtSpecialized": {
+        "title": "Inspeção Visual – Especializado",
+        "subtitle": "ISO 9712 – Especializado",
+        "duration": "3 Dias",
+        "level": "Especializado",
+        "category": "isoSpecialized"
+      }
+    }
+  },
+  "dualAudience": {
+    "badge": "Para Quem?",
+    "title": "Formação para Todos os Objetivos",
+    "individual": {
+      "tag": "Profissionais Individuais",
+      "title": "Avance na Sua Carreira",
+      "description": "Obtenha credenciais reconhecidas internacionalmente que abrem portas no mercado global de petróleo, gás, construção e indústria.",
+      "point1": "Certificados reconhecidos em todo o mundo",
+      "point2": "Aumente o seu salário e valor no mercado",
+      "point3": "Progressão de carreira estruturada (Nível 2 → 3)",
+      "point4": "Instrutores com experiência industrial real",
+      "cta": "Ver Cursos para Profissionais"
+    },
+    "corporate": {
+      "tag": "Empresas & Organizações",
+      "title": "Construa Conformidade e Capacidade",
+      "description": "Capacite a sua força de trabalho local, garanta conformidade regulatória e fortaleça as suas propostas de licitação com equipas certificadas.",
+      "point1": "Conformidade ISO 9001, 14001 e 45001",
+      "point2": "Força de trabalho local certificada",
+      "point3": "Programas de formação in-company disponíveis",
+      "point4": "Prontos para licitações e auditorias",
+      "isoHighlight": "Os cursos ISO Lead Auditor são estruturados especialmente para indivíduos E empresas que necessitam de conformidade organizacional.",
+      "cta": "Solicitar Proposta Empresarial"
+    }
+  },
+  "footer": {
+    "tagline": "Formação Industrial de Nível Mundial em Angola.",
+    "quickLinks": "Links Rápidos",
+    "contact": "Contacto",
+    "whatsapp": "WhatsApp Direto",
+    "whatsappSubtext": "Resposta rápida via WhatsApp",
+    "email": "Email",
+    "inquiry": "Enviar Mensagem",
+    "inquiryName": "O seu nome",
+    "inquiryMessage": "A sua mensagem",
+    "inquirySend": "Enviar",
+    "rights": "Todos os direitos reservados.",
+    "certifications": "Certificações"
+  }
+}
