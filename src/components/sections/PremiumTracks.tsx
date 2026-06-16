@@ -30,9 +30,7 @@ export default function PremiumTracks() {
           {tracks.map(({ key, icon, img, imgW, imgH, imgAlt }, i) => (
             <div
               key={key}
-              className={`border-l-4 border border-gray-200 flex flex-col overflow-hidden ${
-                i === 0 ? "border-l-navy" : "border-l-blue"
-              }`}
+              className="border border-gray-200 flex flex-col overflow-hidden"
             >
               {/* Full photo — no crop */}
               <Image
