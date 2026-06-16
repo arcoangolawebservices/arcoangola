@@ -28,11 +28,11 @@ export default function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-20 lg:py-32">
         <div className="max-w-3xl">
 
-          <span className="block text-blue text-xs font-bold uppercase tracking-widest mb-8">
+          <span className="block text-white text-xs font-bold uppercase tracking-widest mb-8">
             {t("badge")}
           </span>
 
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold leading-[1.0] tracking-tight text-white mb-6">
+          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold leading-[1.05] tracking-tight text-white mb-6">
             {t("title")}
             <br />
             <span className="text-blue">{t("titleHighlight")}</span>
@@ -63,11 +63,15 @@ export default function Hero() {
           </div>
 
           {/* Stats */}
-          <div className="flex flex-wrap gap-10 border-t border-white/15 pt-8">
+          <div className="flex flex-wrap gap-x-8 gap-y-5 border-t border-white/15 pt-6">
             {stats.map((s) => (
-              <div key={s.label}>
-                <div className="text-3xl font-extrabold text-blue">{s.value}</div>
-                <div className="text-xs text-white/50 mt-0.5 uppercase tracking-wide">{s.label}</div>
+              <div key={s.label} className="flex items-center gap-2.5">
+                <span className="text-4xl sm:text-5xl font-black text-white leading-none tracking-tight">
+                  {s.value}
+                </span>
+                <span className="text-[10px] text-white/40 uppercase tracking-widest font-bold leading-tight max-w-[52px]">
+                  {s.label}
+                </span>
               </div>
             ))}
           </div>

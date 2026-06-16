@@ -59,10 +59,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 lg:h-20">
 
           {/* Logo */}
-          <Link href={`/${locale}`} className="flex items-center gap-3 shrink-0">
-            <span className="flex items-center justify-center w-9 h-9 bg-navy text-white font-black text-lg leading-none select-none">
-              A
-            </span>
+          <Link href={`/${locale}`} className="flex items-center shrink-0">
             <span className="font-black text-xl tracking-tight text-navy">
               ARCO<span className="text-blue">ANGOLA</span>
             </span>
