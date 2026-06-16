@@ -45,14 +45,54 @@ const ISO_SUBGROUPS = [
 
 function CourseRow({ course }: { course: Course }) {
   return (
-    <div className="flex items-start justify-between gap-4 px-4 sm:px-5 py-3.5 hover:bg-gray-50 transition-colors">
+    <div className="flex items-start justify-between gap-3 px-4 py-4 hover:bg-gray-50 transition-colors">
       <div className="flex-1 min-w-0">
         <p className="font-bold text-navy text-sm leading-snug">{course.title}</p>
-        <p className="text-xs text-gray-400 mt-0.5 truncate">{course.subtitle}</p>
+        <p className="text-xs text-gray-400 mt-0.5 leading-relaxed">{course.subtitle}</p>
       </div>
       <span className="text-xs font-black text-blue shrink-0 mt-0.5 uppercase tracking-wide">
         {course.level}
       </span>
+    </div>
+  );
+}
+
+function MobileIsoAccordion({ courses }: { courses: Course[] }) {
+  const [open, setOpen] = useState<string>("isoSystems");
+
+  return (
+    <div>
+      {ISO_SUBGROUPS.map(({ key, label }) => {
+        const sub = courses.filter((c) => c.category === key);
+        if (sub.length === 0) return null;
+        const isOpen = open === key;
+        return (
+          <div key={key} className="border-b border-gray-100 last:border-0">
+            <button
+              onClick={() => setOpen(isOpen ? "" : key)}
+              className="w-full flex items-center justify-between px-4 py-3.5 bg-gray-50 text-left"
+            >
+              <span className="text-xs font-black uppercase tracking-widest text-navy">
+                {label}
+              </span>
+              <div className="flex items-center gap-2 shrink-0">
+                <span className="text-[10px] font-bold text-gray-400">{sub.length}</span>
+                <svg
+                  className={`w-4 h-4 text-blue transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </div>
+            </button>
+            {isOpen && (
+              <div className="divide-y divide-gray-100">
+                {sub.map((course) => <CourseRow key={course.id} course={course} />)}
+              </div>
+            )}
+          </div>
+        );
+      })}
     </div>
   );
 }
@@ -111,9 +151,10 @@ export default function CatalogTabs({ courses, labels }: Props) {
           <p className="text-gray-500 max-w-xl text-sm sm:text-base">{labels.subtitle}</p>
         </div>
 
-        {/* ── MOBILE: horizontal scrolling tabs + list below ── */}
+        {/* ── MOBILE: 2×2 grid tabs + accordion for ISO ── */}
         <div className="lg:hidden">
-          <div className="flex overflow-x-auto border border-gray-200 bg-white divide-x divide-gray-200">
+          {/* 2×2 category grid */}
+          <div className="grid grid-cols-2 gap-2 mb-4">
             {sections.map(({ key, label }) => {
               const count = courses.filter((c) => CATEGORY_GROUPS[c.category] === key).length;
               const isActive = active === key;
@@ -121,23 +162,27 @@ export default function CatalogTabs({ courses, labels }: Props) {
                 <button
                   key={key}
                   onClick={() => setActive(key)}
-                  className={`shrink-0 px-4 py-3 text-left transition-colors border-b-2 ${
+                  className={`flex flex-col items-start px-4 py-4 border transition-colors text-left ${
                     isActive
-                      ? "border-b-blue bg-navy text-white"
-                      : "border-b-transparent bg-white text-navy hover:bg-gray-50"
+                      ? "bg-navy border-navy text-white"
+                      : "bg-white border-gray-200 text-navy"
                   }`}
                 >
-                  <span className="block font-black text-xs whitespace-nowrap">{label}</span>
-                  <span className={`block text-[10px] mt-0.5 ${isActive ? "text-white/50" : "text-gray-400"}`}>
-                    {count}
+                  <span className={`text-[10px] font-black uppercase tracking-widest mb-1 ${isActive ? "text-blue" : "text-gray-400"}`}>
+                    {count} courses
+                  </span>
+                  <span className={`font-black text-sm leading-tight ${isActive ? "text-white" : "text-navy"}`}>
+                    {label}
                   </span>
                 </button>
               );
             })}
           </div>
-          <div className="border border-t-0 border-gray-200 bg-white">
+
+          {/* Course list */}
+          <div className="border border-gray-200 bg-white">
             {active === "iso"
-              ? <IsoCoursePanel courses={courses} />
+              ? <MobileIsoAccordion courses={courses} />
               : <div className="divide-y divide-gray-100">{visible.map((c) => <CourseRow key={c.id} course={c} />)}</div>
             }
           </div>
