@@ -37,10 +37,10 @@ const CATEGORY_GROUPS: Record<string, string> = {
 };
 
 const ISO_SUBGROUPS = [
-  { key: "isoSystems",     label: "Management Systems" },
-  { key: "isoNdt2",        label: "NDT Level II" },
-  { key: "isoNdt3",        label: "NDT Level III" },
-  { key: "isoSpecialized", label: "Specialized Methods" },
+  { key: "isoSystems",     label: "ISO Lead Auditor Training & Certification Courses" },
+  { key: "isoNdt2",        label: "ISO 9712 NDT Level 2" },
+  { key: "isoNdt3",        label: "ISO 9712 NDT Level 3" },
+  { key: "isoSpecialized", label: "Additional ISO 9712 Courses" },
 ];
 
 function CourseRow({ course }: { course: Course }) {
