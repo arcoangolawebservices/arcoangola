@@ -149,33 +149,35 @@ export default function Navbar() {
             ))}
           </div>
 
-          <div className="mt-5 flex items-center gap-3">
-            <span className="text-xs font-bold text-gray-400 uppercase tracking-widest">
+          {/* Language switcher — full-width rows for easy tapping */}
+          <div className="mt-2 border-t border-gray-100">
+            <span className="block text-[10px] font-black uppercase tracking-widest text-gray-400 px-2 pt-4 pb-1">
               {t("language")}
             </span>
-            <div className="flex items-center gap-2">
-              {locales.map(({ code, flag, label }) => (
-                <Link
-                  key={code}
-                  href={switchLocalePath(code)}
-                  title={label}
-                  className={`transition-all duration-150 ${
-                    code === locale
-                      ? "opacity-100 ring-2 ring-blue ring-offset-1"
-                      : "opacity-40 hover:opacity-80"
-                  }`}
+            {locales.map(({ code, flag, label }) => (
+              <Link
+                key={code}
+                href={switchLocalePath(code)}
+                onClick={() => setMobileOpen(false)}
+                className={`flex items-center gap-3 py-3 px-2 border-b border-gray-100 last:border-0 transition-colors ${
+                  code === locale ? "text-blue" : "text-navy/50 hover:text-navy"
+                }`}
+              >
+                <Image
+                  src={flag}
+                  alt={label}
+                  width={24}
+                  height={24}
                   style={{ borderRadius: "50%" }}
-                >
-                  <Image
-                    src={flag}
-                    alt={label}
-                    width={30}
-                    height={30}
-                    style={{ borderRadius: "50%" }}
-                  />
-                </Link>
-              ))}
-            </div>
+                />
+                <span className="text-sm font-bold">
+                  {code === "pt" ? "Português" : code === "en" ? "English" : "Français"}
+                </span>
+                {code === locale && (
+                  <span className="ml-auto w-2 h-2 bg-blue" />
+                )}
+              </Link>
+            ))}
           </div>
 
           <a
