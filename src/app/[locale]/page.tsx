@@ -31,7 +31,6 @@ export default async function LandingPage({ params }: Props) {
     id: key,
     title: t(`courses.${key}.title` as Parameters<typeof t>[0]),
     subtitle: t(`courses.${key}.subtitle` as Parameters<typeof t>[0]),
-    duration: t(`courses.${key}.duration` as Parameters<typeof t>[0]),
     level: t(`courses.${key}.level` as Parameters<typeof t>[0]),
     category: t(`courses.${key}.category` as Parameters<typeof t>[0]),
   }));
@@ -42,7 +41,6 @@ export default async function LandingPage({ params }: Props) {
     filterNdt: t("filterNdt"),
     filterApi: t("filterApi"),
     filterIso: t("filterIso"),
-    duration: t("duration"),
     level: t("level"),
     learnMore: t("learnMore"),
     badge: t("badge"),

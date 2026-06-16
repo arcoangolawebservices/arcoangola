@@ -6,7 +6,6 @@ type Course = {
   id: string;
   title: string;
   subtitle: string;
-  duration: string;
   level: string;
   category: string;
 };
@@ -19,7 +18,6 @@ type Props = {
     filterNdt: string;
     filterApi: string;
     filterIso: string;
-    duration: string;
     level: string;
     learnMore: string;
     badge: string;
