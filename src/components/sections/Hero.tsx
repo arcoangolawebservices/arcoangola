@@ -16,7 +16,7 @@ export default function Hero() {
       {/* Background image — replace src with real photo when available */}
       <div className="absolute inset-0">
         <Image
-          src="/assets/hero-bg.jpg"
+          src="/assets/hero-bg.webp"
           alt=""
           fill
           priority
