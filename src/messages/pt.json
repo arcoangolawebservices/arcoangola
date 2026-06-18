@@ -8,10 +8,10 @@
   },
   "hero": {
     "badge": "O Primeiro Centro de Certificação Industrial Globalmente Acreditado em Angola",
-    "title": "Formação de Excelência Mundial.",
-    "titleHighlight": "Certificação Global,",
-    "titleSuffix": "Aqui Mesmo em Angola.",
-    "subtitle": "O primeiro centro de certificação globalmente acreditado em Angola — oferecendo programas TWI-CSWIP, ASNT, ISO, API e Profissional QC Certificado segundo os padrões internacionais exigidos em obras e reconhecidos por empregadores em todo o mundo.",
+    "title": "Formação Certificada.",
+    "titleHighlight": "Competência Comprovada.",
+    "titleSuffix": "Excelência Entregue.",
+    "subtitle": "Inspeção Internacional, Controlo QA/QC e Formação para Certificação — o primeiro centro globalmente acreditado em Angola, oferecendo programas TWI-CSWIP, ASNT, ISO e API reconhecidos por empregadores e operadores mundiais.",
     "ctaExplore": "Explorar Certificações",
     "ctaCorporate": "Formação Empresarial",
     "stat1Value": "8+",
@@ -394,7 +394,7 @@
     }
   },
   "footer": {
-    "tagline": "Formação Industrial de Nível Mundial em Angola.",
+    "tagline": "Formação Certificada. Competência Comprovada. Excelência Entregue.",
     "quickLinks": "Links Rápidos",
     "contact": "Contacto",
     "whatsapp": "WhatsApp Direto",

@@ -8,6 +8,8 @@ import CatalogTabs from "@/components/sections/CatalogTabs";
 import NdtServices from "@/components/sections/NdtServices";
 import DualAudience from "@/components/sections/DualAudience";
 import PremiumTracks from "@/components/sections/PremiumTracks";
+import AboutSection from "@/components/sections/AboutSection";
+import WhyChooseUs from "@/components/sections/WhyChooseUs";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -56,6 +58,10 @@ export default async function LandingPage({ params }: Props) {
       <main>
         <Hero />
 
+        <section id="about">
+          <AboutSection />
+        </section>
+
         <section id="accreditations">
           <Certificates />
         </section>
@@ -78,6 +84,10 @@ export default async function LandingPage({ params }: Props) {
 
         <section id="premium">
           <PremiumTracks />
+        </section>
+
+        <section id="why-us">
+          <WhyChooseUs />
         </section>
       </main>
 

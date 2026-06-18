@@ -183,6 +183,9 @@ export default function Footer() {
           <p className="text-xs text-white/25">
             © {new Date().getFullYear()} Arco Angola. {t("rights")}
           </p>
+          <p className="text-[11px] font-black uppercase tracking-widest text-white/20 order-first sm:order-none">
+            Quality&nbsp;·&nbsp;Integrity&nbsp;·&nbsp;Commitment
+          </p>
           <div className="flex items-center gap-6">
             {(["pt", "en", "fr"] as const).map((l) => (
               <Link
