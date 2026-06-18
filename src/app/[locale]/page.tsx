@@ -2,6 +2,7 @@ import { getTranslations } from "next-intl/server";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import Hero from "@/components/sections/Hero";
+import Certificates from "@/components/sections/Certificates";
 import CertificationHighlights from "@/components/sections/CertificationHighlights";
 import CatalogTabs from "@/components/sections/CatalogTabs";
 import NdtServices from "@/components/sections/NdtServices";
@@ -54,6 +55,10 @@ export default async function LandingPage({ params }: Props) {
       <Navbar />
       <main>
         <Hero />
+
+        <section id="accreditations">
+          <Certificates />
+        </section>
 
         <section id="programmes">
           <CertificationHighlights />

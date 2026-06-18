@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 type Course = {
   id: string;
@@ -157,6 +158,18 @@ export default function CatalogTabs({ courses, labels }: Props) {
 
         {/* Header */}
         <div className="mb-10 sm:mb-14">
+
+          {/* Image — full-width strip on all sizes */}
+          <div className="relative h-56 sm:h-72 lg:h-80 overflow-hidden mb-6 sm:mb-8">
+            <Image
+              src="/assets/img-engineer.jpg"
+              alt="Certified industrial inspector on site"
+              fill
+              style={{ objectFit: "cover", objectPosition: "center 30%" }}
+            />
+          </div>
+
+          {/* Text */}
           <span className="block text-blue text-xs font-bold uppercase tracking-widest mb-4">
             {labels.badge}
           </span>
@@ -164,6 +177,7 @@ export default function CatalogTabs({ courses, labels }: Props) {
             {labels.title}
           </h2>
           <p className="text-gray-500 max-w-xl text-sm sm:text-base">{labels.subtitle}</p>
+
         </div>
 
         {/* ── MOBILE: 2×2 grid tabs + accordion for ISO ── */}
