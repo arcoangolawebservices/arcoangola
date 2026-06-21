@@ -54,7 +54,7 @@ export default function Footer() {
       <div className="h-px bg-blue" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-14 pb-8">
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-12 mb-8 sm:mb-12">
 
           {/* Brand */}
           <div>

@@ -24,6 +24,19 @@
     "stat3Value": "3",
     "stat3Label": "Languages of Instruction"
   },
+  "certStrip": {
+    "badge": "International Certifications",
+    "cswip": "CSWIP Programs",
+    "cswipBody": "TWI Welding Inspection",
+    "bgas": "BGAS Programs",
+    "bgasBody": "Protective Coatings Inspection",
+    "asnt": "ASNT NDT Programs",
+    "asntBody": "SNT-TC-1A Level II",
+    "iso": "ISO Lead Auditor Programs",
+    "isoBody": "ISO 9001 · 14001 · 45001",
+    "api": "API Preparation Programs",
+    "apiBody": "API 510 · 570 · 653"
+  },
   "premium": {
     "badge": "Premium Programmes",
     "title": "Certified Career Tracks",
@@ -393,14 +406,18 @@
     "card1Desc": "Accredited Lead Auditor programmes for Quality (ISO 9001), Environmental (ISO 14001) and Occupational Health & Safety (ISO 45001) management systems — equipping professionals and organisations for audit, compliance and certification.",
     "card2Title": "ISO 9712 NDT Certification",
     "card2Desc": "ISO 9712 Level 2 and Level 3 certification across all major NDT methods — conventional techniques, advanced methods (PAUT, TOFD) and specialised courses including ACFM and Eddy Current. The international benchmark for NDT personnel certification.",
-    "card3Title": "NDT Level II Certification",
+    "card3Title": "ASNT - NDT Level II Certification",
     "card3Desc": "ASNT-accredited non-destructive testing courses covering VT, MT, PT, UT, RT and RTFI — the globally accepted standard for NDT personnel qualification in the oil, gas and industrial sectors. Recognised by employers and clients worldwide.",
-    "card4Title": "Welding & Painting Inspection",
+    "card4Title": "CSWIP Welding & Painting Certification",
     "card4Desc": "Internationally recognised welding and painting inspection certifications from TWI — covering visual welding inspection (CSWIP 3.0, 3.1, 3.2) and protective coatings inspection (BGAS Grade 1 & 2). The global benchmark for inspectors in the oil, gas and construction sectors.",
     "card5Title": "Certified QC Professional Training",
     "card5Desc": "Angola's only provider of comprehensive Certified Oil & Gas Industry Professional (COGIP) and Certified Mechanical QA/QC Industry Professional (CMQIP) programmes — intensive, industry-focused tracks built to globally recognised standards, producing QC professionals who are work-ready from day one.",
+    "card5bBadge": "Corporate & Business Solutions",
+    "card5bTitle": "Corporate Certification & Training Solutions",
+    "card5bDesc": "We partner with corporations, EPC contractors and industrial operators to deliver tailored in-company certification and training programmes. From ISO management system implementation to full workforce NDT qualification — we build certified, audit-ready teams that meet project, tender and regulatory requirements.",
     "viewCourses": "View Courses",
-    "viewProgrammes": "View Programmes"
+    "viewProgrammes": "View Programmes",
+    "requestProposal": "Request a Corporate Proposal"
   },
   "ndtServices": {
     "sectionBadge": "Field Inspection Services",
@@ -476,20 +493,32 @@
   },
   "whyUs": {
     "badge": "Why Arco Angola",
-    "heading": "Why Choose Us",
-    "subtitle": "We are built from the ground up to meet the specific demands of Angola's industrial sector — with global standards, local delivery and measurable outcomes.",
-    "reason1Title": "International Standard Training",
-    "reason1Desc": "All programmes are structured around globally recognised standards including TWI-CSWIP, ASNT, API and ISO — the same qualifications demanded on major projects worldwide.",
-    "reason2Title": "Competency-Based Certification",
-    "reason2Desc": "We measure what candidates can do, not just what they know. Every certification pathway is built around demonstrated competence and practical performance outcomes.",
-    "reason3Title": "Industry-Experienced Instructors",
-    "reason3Desc": "Our instructors bring real-world field experience from oil & gas, construction and industrial operations — not just classroom theory, but proven applied expertise.",
+    "heading": "Why Choose ARCO ANGOLA?",
+    "subtitle": "We serve both individual professionals and corporate clients — delivering internationally recognised certifications and tailored training solutions that meet the real demands of Angola's industrial sector.",
+    "reason1Title": "Industry Experienced Instructors",
+    "reason1Desc": "Our instructors are active industry professionals with hands-on field experience in oil & gas, construction and industrial operations — bringing real-world expertise, not just classroom theory, to every programme we deliver.",
+    "reason2Title": "Internationally Recognized Programs",
+    "reason2Desc": "Every certification we deliver is backed by a globally recognised body — TWI-CSWIP, ASNT, API and ISO — the same qualifications demanded by major operators, contractors and employers on projects worldwide.",
+    "reason3Title": "Practical Hands-On Training",
+    "reason3Desc": "Our programmes are built around practical application. Candidates work with real equipment, real scenarios and real inspection challenges — building genuine, demonstrable competence that employers can rely on.",
     "reason4Title": "Project-Driven QA/QC Expertise",
-    "reason4Desc": "Our QA/QC and inspection training is developed directly from project requirements and client specifications, ensuring graduates are ready from day one on the job."
+    "reason4Desc": "For corporates and businesses, our QA/QC programmes are developed directly from project requirements and client specifications — producing certified teams that are tender-ready, audit-compliant and operationally effective from day one.",
+    "reason5Title": "Angola-Based Support",
+    "reason5Desc": "We are here in Angola, delivering internationally accredited programmes locally — with full support in English, Portuguese and French, and deep knowledge of the local industrial landscape and regulatory environment."
   },
   "dualAudience": {
     "badge": "Who Is This For?",
     "title": "Training for Every Goal",
+    "industries": {
+      "badge": "Industries We Serve",
+      "title": "Industries We Serve",
+      "oil": "Oil & Gas",
+      "energy": "Energy & Utilities",
+      "petrochemical": "Petrochemical",
+      "fabrication": "Fabrication & Manufacturing",
+      "marine": "Marine & Offshore",
+      "construction": "Construction & Infrastructure"
+    },
     "individual": {
       "tag": "Individual Professionals",
       "title": "Advance Your Career",

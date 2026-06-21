@@ -180,7 +180,7 @@ export default function NdtServices() {
               {t("sectionBadge")}
             </span>
 
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-[1.05] mb-6">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-black text-white leading-[1.05] mb-6">
               {t("heading")}<br />
               <span className="text-blue">{t("headingHighlight")}</span>
             </h2>

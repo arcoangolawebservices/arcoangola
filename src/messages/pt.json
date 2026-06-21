@@ -24,6 +24,19 @@
     "stat3Value": "3",
     "stat3Label": "Idiomas de Ensino"
   },
+  "certStrip": {
+    "badge": "Certificações Internacionais",
+    "cswip": "Programas CSWIP",
+    "cswipBody": "Inspecção de Soldadura TWI",
+    "bgas": "Programas BGAS",
+    "bgasBody": "Inspecção de Revestimentos Protectores",
+    "asnt": "Programas ASNT END",
+    "asntBody": "SNT-TC-1A Nível II",
+    "iso": "Programas ISO Lead Auditor",
+    "isoBody": "ISO 9001 · 14001 · 45001",
+    "api": "Programas de Preparação API",
+    "apiBody": "API 510 · 570 · 653"
+  },
   "premium": {
     "badge": "Programas Premium",
     "title": "Trilhas de Carreira Certificadas",
@@ -393,14 +406,18 @@
     "card1Desc": "Programas acreditados de Auditor-Líder para sistemas de gestão de Qualidade (ISO 9001), Ambiental (ISO 14001) e de Saúde e Segurança Ocupacional (ISO 45001) — capacitando profissionais e organizações para auditoria, conformidade e certificação.",
     "card2Title": "Certificação ISO 9712 END",
     "card2Desc": "Certificação ISO 9712 Nível 2 e Nível 3 em todos os principais métodos END — técnicas convencionais, métodos avançados (PAUT, TOFD) e cursos especializados incluindo ACFM e Correntes Parasitas. O referencial internacional para a certificação de pessoal de END.",
-    "card3Title": "Certificação END Nível II",
+    "card3Title": "ASNT - Certificação END Nível II",
     "card3Desc": "Cursos de ensaios não destrutivos acreditados pela ASNT abrangendo VT, MT, PT, UT, RT e RTFI — o padrão globalmente aceite para a qualificação de pessoal END nos sectores de petróleo, gás e indústria. Reconhecido por empregadores e clientes em todo o mundo.",
-    "card4Title": "Inspecção de Soldadura e Pintura",
+    "card4Title": "Certificação CSWIP de Soldadura e Pintura",
     "card4Desc": "Certificações internacionalmente reconhecidas de inspecção de soldadura e pintura da TWI — cobrindo inspecção visual de soldadura (CSWIP 3.0, 3.1, 3.2) e inspecção de revestimentos protectores (BGAS Grau 1 e 2). O referencial mundial para inspectores nos sectores de petróleo, gás e construção.",
     "card5Title": "Formação de Profissional QC Certificado",
     "card5Desc": "O único fornecedor em Angola de programas abrangentes de Profissional Certificado da Indústria de Petróleo e Gás (COGIP) e Profissional Certificado de QA/QC Mecânico Industrial (CMQIP) — percursos intensivos e focados na indústria, construídos segundo padrões globalmente reconhecidos, produzindo profissionais QC prontos para trabalhar desde o primeiro dia.",
+    "card5bBadge": "Soluções para Empresas e Corporações",
+    "card5bTitle": "Soluções de Certificação e Formação Corporativa",
+    "card5bDesc": "Estabelecemos parcerias com empresas, contratantes EPC e operadores industriais para desenvolver programas de certificação e formação personalizados. Desde a implementação de sistemas de gestão ISO até à qualificação END de equipas completas — construímos equipas certificadas, prontas para auditorias e que cumprem os requisitos de projectos, licitações e regulamentos.",
     "viewCourses": "Ver Cursos",
-    "viewProgrammes": "Ver Programas"
+    "viewProgrammes": "Ver Programas",
+    "requestProposal": "Solicitar Proposta Corporativa"
   },
   "ndtServices": {
     "sectionBadge": "Serviços de Inspecção de Campo",
@@ -476,20 +493,32 @@
   },
   "whyUs": {
     "badge": "Por Que Arco Angola",
-    "heading": "Por Que Nos Escolher",
-    "subtitle": "Somos construídos de raiz para responder às exigências específicas do sector industrial de Angola — com padrões globais, entrega local e resultados mensuráveis.",
-    "reason1Title": "Formação de Padrão Internacional",
-    "reason1Desc": "Todos os programas são estruturados em torno de normas globalmente reconhecidas, incluindo TWI-CSWIP, ASNT, API e ISO — as mesmas qualificações exigidas nos maiores projectos a nível mundial.",
-    "reason2Title": "Certificação Baseada em Competências",
-    "reason2Desc": "Medimos o que os candidatos conseguem fazer, não apenas o que sabem. Cada percurso de certificação é construído em torno de competências demonstradas e resultados de desempenho prático.",
-    "reason3Title": "Instrutores com Experiência na Indústria",
-    "reason3Desc": "Os nossos instrutores trazem experiência real de campo em petróleo e gás, construção e operações industriais — não apenas teoria de sala de aula, mas especialização aplicada comprovada.",
+    "heading": "Por Que Escolher a ARCO ANGOLA?",
+    "subtitle": "Servimos tanto profissionais individuais como clientes corporativos — entregando certificações internacionalmente reconhecidas e soluções de formação adaptadas que respondem às exigências reais do sector industrial de Angola.",
+    "reason1Title": "Instrutores com Experiência na Indústria",
+    "reason1Desc": "Os nossos instrutores são profissionais activos da indústria com experiência prática de campo em petróleo e gás, construção e operações industriais — trazendo especialização real, não apenas teoria de sala de aula, a cada programa que entregamos.",
+    "reason2Title": "Programas Internacionalmente Reconhecidos",
+    "reason2Desc": "Cada certificação que entregamos é apoiada por um organismo globalmente reconhecido — TWI-CSWIP, ASNT, API e ISO — as mesmas qualificações exigidas por grandes operadores, contratantes e empregadores em projectos a nível mundial.",
+    "reason3Title": "Formação Prática e Aplicada",
+    "reason3Desc": "Os nossos programas são construídos em torno da aplicação prática. Os candidatos trabalham com equipamentos reais, cenários reais e desafios de inspecção reais — desenvolvendo competências genuínas e demonstráveis em que os empregadores podem confiar.",
     "reason4Title": "Especialização em QA/QC Orientada a Projectos",
-    "reason4Desc": "A nossa formação em QA/QC e inspecção é desenvolvida directamente a partir dos requisitos dos projectos e especificações dos clientes, garantindo que os formandos estejam prontos desde o primeiro dia."
+    "reason4Desc": "Para empresas e corporações, os nossos programas de QA/QC são desenvolvidos directamente a partir dos requisitos dos projectos e especificações dos clientes — produzindo equipas certificadas, prontas para licitações, conformes com auditorias e operacionalmente eficazes desde o primeiro dia.",
+    "reason5Title": "Suporte Baseado em Angola",
+    "reason5Desc": "Estamos aqui em Angola, entregando programas internacionalmente acreditados localmente — com suporte completo em Inglês, Português e Francês, e profundo conhecimento do panorama industrial local e do ambiente regulatório."
   },
   "dualAudience": {
     "badge": "Para Quem?",
     "title": "Formação para Todos os Objetivos",
+    "industries": {
+      "badge": "Sectores que Servimos",
+      "title": "Sectores que Servimos",
+      "oil": "Petróleo e Gás",
+      "energy": "Energia e Utilities",
+      "petrochemical": "Petroquímica",
+      "fabrication": "Fabricação e Manufactura",
+      "marine": "Marítimo e Offshore",
+      "construction": "Construção e Infraestrutura"
+    },
     "individual": {
       "tag": "Profissionais Individuais",
       "title": "Avance na Sua Carreira",

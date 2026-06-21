@@ -31,7 +31,38 @@ export default function Certificates() {
             </p>
           </div>
 
-          <div className="grid grid-cols-3 gap-4 sm:gap-6 lg:gap-10">
+          {/* Mobile: horizontal scroll snap */}
+          <div className="flex gap-4 overflow-x-auto pb-2 -mx-4 px-4 sm:hidden snap-x snap-mandatory">
+            {CERT_IMAGES.map(({ src, label, subKey }) => (
+              <button
+                key={src}
+                onClick={() => setLightbox(src)}
+                className="group flex flex-col overflow-hidden border border-gray-200 hover:border-blue transition-colors duration-200 text-left shrink-0 w-52 snap-start"
+              >
+                <div className="relative overflow-hidden">
+                  <Image
+                    src={src}
+                    alt={label}
+                    width={1131}
+                    height={1600}
+                    style={{ width: "100%", height: "auto", display: "block" }}
+                  />
+                  <div className="absolute inset-0 bg-black/0 group-active:bg-black/20 transition-colors duration-200 flex items-center justify-center">
+                    <svg className="w-10 h-10 text-white opacity-0 group-active:opacity-100 transition-opacity duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6" />
+                    </svg>
+                  </div>
+                </div>
+                <div className="px-4 py-3 border-t border-gray-100">
+                  <p className="text-[11px] font-black text-blue uppercase tracking-widest leading-tight">{label}</p>
+                  <p className="text-[10px] text-gray-400 mt-0.5 leading-tight">{t(subKey)}</p>
+                </div>
+              </button>
+            ))}
+          </div>
+
+          {/* Desktop: 3-col grid */}
+          <div className="hidden sm:grid grid-cols-3 gap-6 lg:gap-10">
             {CERT_IMAGES.map(({ src, label, subKey }) => (
               <button
                 key={src}
@@ -47,17 +78,14 @@ export default function Certificates() {
                     style={{ width: "100%", height: "auto", display: "block" }}
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/25 transition-colors duration-200 flex items-center justify-center">
-                    <svg
-                      className="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200"
-                      fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}
-                    >
+                    <svg className="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6" />
                     </svg>
                   </div>
                 </div>
                 <div className="px-4 py-3 border-t border-gray-100">
                   <p className="text-[11px] font-black text-blue uppercase tracking-widest leading-tight">{label}</p>
-                  <p className="text-[10px] text-gray-400 mt-0.5 leading-tight hidden sm:block">{t(subKey)}</p>
+                  <p className="text-[10px] text-gray-400 mt-0.5 leading-tight">{t(subKey)}</p>
                 </div>
               </button>
             ))}

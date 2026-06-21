@@ -180,7 +180,7 @@ export default function CatalogTabs({ courses, labels }: Props) {
           <span className="block text-blue text-xs font-bold uppercase tracking-widest mb-4">
             {labels.badge}
           </span>
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-navy mb-3">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-navy mb-3">
             {labels.title}
           </h2>
           <p className="text-gray-500 max-w-xl text-sm sm:text-base">{labels.subtitle}</p>

@@ -27,6 +27,7 @@ export default function WhyChooseUs() {
     { title: t("reason2Title"), desc: t("reason2Desc") },
     { title: t("reason3Title"), desc: t("reason3Desc") },
     { title: t("reason4Title"), desc: t("reason4Desc") },
+    { title: t("reason5Title"), desc: t("reason5Desc") },
   ];
 
   return (
@@ -49,15 +50,16 @@ export default function WhyChooseUs() {
         {/* Reasons grid */}
         <div className="grid sm:grid-cols-2 gap-0 border border-white/15">
           {reasons.map(({ title, desc }, i) => {
-            const isBottomRow = i >= 2;
+            const isLast = i === reasons.length - 1;
             const isRightCol = i % 2 === 1;
             return (
               <div
                 key={title}
                 className={[
-                  "px-8 py-8 flex gap-4",
-                  !isBottomRow ? "border-b border-white/15" : "",
-                  !isRightCol ? "sm:border-r border-white/15" : "",
+                  "px-5 py-6 sm:px-8 sm:py-8 flex gap-4",
+                  !isLast ? "border-b border-white/15" : "",
+                  !isRightCol && !isLast ? "sm:border-r border-white/15" : "",
+                  isLast ? "sm:col-span-2" : "",
                 ].join(" ")}
               >
                 <CheckIcon />

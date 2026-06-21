@@ -30,6 +30,15 @@ export default function DualAudience() {
     t("corporate.point4"),
   ];
 
+  const industries = [
+    t("industries.oil"),
+    t("industries.energy"),
+    t("industries.petrochemical"),
+    t("industries.fabrication"),
+    t("industries.marine"),
+    t("industries.construction"),
+  ];
+
   return (
     <section className="py-14 sm:py-20 lg:py-28 bg-white border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -54,7 +63,7 @@ export default function DualAudience() {
                 style={{ objectFit: "cover", objectPosition: "center top" }}
               />
             </div>
-            <div className="p-8 lg:p-12 flex flex-col gap-6 flex-1">
+            <div className="p-6 sm:p-8 lg:p-12 flex flex-col gap-6 flex-1">
             <span className="self-start text-xs font-black uppercase tracking-widest text-blue">
               {t("individual.tag")}
             </span>
@@ -94,7 +103,7 @@ export default function DualAudience() {
                 style={{ objectFit: "cover", objectPosition: "center 15%" }}
               />
             </div>
-          <div className="p-8 lg:p-12 flex flex-col gap-6 bg-navy flex-1">
+          <div className="p-6 sm:p-8 lg:p-12 flex flex-col gap-6 bg-navy flex-1">
             <span className="self-start text-xs font-black uppercase tracking-widest text-white/50">
               {t("corporate.tag")}
             </span>
@@ -131,6 +140,27 @@ export default function DualAudience() {
           </div>
           </div>
         </div>
+
+        {/* Industries We Serve */}
+        <div className="mt-10 sm:mt-14">
+          <div className="mb-6">
+            <span className="block text-blue text-xs font-bold uppercase tracking-widest mb-3">
+              {t("industries.badge")}
+            </span>
+            <h3 className="text-2xl sm:text-3xl font-black text-navy">
+              {t("industries.title")}
+            </h3>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4">
+            {industries.map((industry) => (
+              <div key={industry} className="flex items-center gap-2 sm:gap-3 border border-gray-200 px-3 py-3 sm:px-5 sm:py-4">
+                <span className="w-1.5 h-1.5 rounded-full bg-blue shrink-0" />
+                <span className="font-bold text-navy text-xs sm:text-sm leading-tight">{industry}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
       </div>
     </section>
   );

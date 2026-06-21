@@ -64,10 +64,10 @@ export default function Hero() {
             </a>
           </div>
 
-          <div className="flex flex-wrap gap-x-10 gap-y-5 border-t border-white/10 pt-6">
+          <div className="flex flex-wrap gap-x-6 gap-y-5 sm:gap-x-10 border-t border-white/10 pt-6">
             {stats.map((s) => (
-              <div key={s.label} className="flex items-center gap-2.5">
-                <span className="text-4xl sm:text-5xl font-black text-white leading-none tracking-tight">
+              <div key={s.label} className="flex items-center gap-2">
+                <span className="text-3xl sm:text-4xl xl:text-5xl font-black text-white leading-none tracking-tight">
                   {s.value}
                 </span>
                 <span className="text-[10px] text-white/65 uppercase tracking-widest font-bold leading-tight max-w-[52px]">

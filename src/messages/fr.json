@@ -24,6 +24,19 @@
     "stat3Value": "3",
     "stat3Label": "Langues d'Enseignement"
   },
+  "certStrip": {
+    "badge": "Certifications Internationales",
+    "cswip": "Programmes CSWIP",
+    "cswipBody": "Inspection de Soudage TWI",
+    "bgas": "Programmes BGAS",
+    "bgasBody": "Inspection des Revêtements de Protection",
+    "asnt": "Programmes ASNT CND",
+    "asntBody": "SNT-TC-1A Niveau II",
+    "iso": "Programmes Auditeur Principal ISO",
+    "isoBody": "ISO 9001 · 14001 · 45001",
+    "api": "Programmes de Préparation API",
+    "apiBody": "API 510 · 570 · 653"
+  },
   "premium": {
     "badge": "Programmes Premium",
     "title": "Parcours de Carrière Certifiés",
@@ -393,14 +406,18 @@
     "card1Desc": "Programmes accrédités d'Auditeur Principal pour les systèmes de management de la Qualité (ISO 9001), de l'Environnement (ISO 14001) et de la Santé et Sécurité au Travail (ISO 45001) — équipant les professionnels et les organisations pour l'audit, la conformité et la certification.",
     "card2Title": "Certification ISO 9712 CND",
     "card2Desc": "Certification ISO 9712 Niveau 2 et Niveau 3 dans toutes les principales méthodes CND — techniques conventionnelles, méthodes avancées (PAUT, TOFD) et cours spécialisés incluant l'ACFM et les Courants de Foucault. La référence internationale pour la certification du personnel CND.",
-    "card3Title": "Certification CND Niveau II",
+    "card3Title": "ASNT - Certification CND Niveau II",
     "card3Desc": "Cours d'essais non destructifs accrédités ASNT couvrant VT, MT, PT, UT, RT et RTFI — la norme mondialement acceptée pour la qualification du personnel CND dans les secteurs pétrolier, gazier et industriel. Reconnu par les employeurs et les clients dans le monde entier.",
-    "card4Title": "Inspection de Soudage et de Peinture",
+    "card4Title": "Certification CSWIP de Soudage et Peinture",
     "card4Desc": "Certifications de contrôle de soudage et de peinture internationalement reconnues de TWI — couvrant l'inspection visuelle de soudage (CSWIP 3.0, 3.1, 3.2) et l'inspection des revêtements de protection (BGAS Grade 1 et 2). La référence mondiale pour les inspecteurs dans les secteurs pétrolier, gazier et de la construction.",
     "card5Title": "Formation de Professionnel QC Certifié",
     "card5Desc": "Le seul fournisseur en Angola de programmes complets de Professionnel Certifié de l'Industrie Pétrolière et Gazière (COGIP) et de Professionnel Certifié QA/QC Mécanique Industriel (CMQIP) — des parcours intensifs et axés sur l'industrie, construits selon des normes mondialement reconnues, produisant des professionnels QC prêts à travailler dès le premier jour.",
+    "card5bBadge": "Solutions pour Entreprises et Corporations",
+    "card5bTitle": "Solutions de Certification et Formation Corporatives",
+    "card5bDesc": "Nous nous associons à des entreprises, des entrepreneurs EPC et des opérateurs industriels pour développer des programmes de certification et de formation sur mesure. De la mise en œuvre de systèmes de management ISO à la qualification CND de toute une équipe — nous construisons des équipes certifiées, prêtes pour les audits et conformes aux exigences des projets, appels d'offres et réglementations.",
     "viewCourses": "Voir les Cours",
-    "viewProgrammes": "Voir les Programmes"
+    "viewProgrammes": "Voir les Programmes",
+    "requestProposal": "Demander une Proposition Corporative"
   },
   "ndtServices": {
     "sectionBadge": "Services d'Inspection de Terrain",
@@ -476,20 +493,32 @@
   },
   "whyUs": {
     "badge": "Pourquoi Arco Angola",
-    "heading": "Pourquoi Nous Choisir",
-    "subtitle": "Nous sommes construits de fond en comble pour répondre aux exigences spécifiques du secteur industriel angolais — avec des normes mondiales, une livraison locale et des résultats mesurables.",
-    "reason1Title": "Formation aux Normes Internationales",
-    "reason1Desc": "Tous les programmes sont structurés autour de normes mondialement reconnues, notamment TWI-CSWIP, ASNT, API et ISO — les mêmes qualifications exigées sur les grands projets mondiaux.",
-    "reason2Title": "Certification Basée sur les Compétences",
-    "reason2Desc": "Nous mesurons ce que les candidats savent faire, pas seulement ce qu'ils savent. Chaque parcours de certification est construit autour de compétences démontrées et de résultats de performance pratique.",
-    "reason3Title": "Instructeurs Expérimentés dans l'Industrie",
-    "reason3Desc": "Nos instructeurs apportent une expérience terrain réelle dans le pétrole et le gaz, la construction et les opérations industrielles — pas seulement de la théorie en salle de classe, mais une expertise appliquée prouvée.",
+    "heading": "Pourquoi Choisir ARCO ANGOLA ?",
+    "subtitle": "Nous servons aussi bien les professionnels individuels que les clients d'entreprise — en délivrant des certifications reconnues internationalement et des solutions de formation sur mesure adaptées aux exigences réelles du secteur industriel angolais.",
+    "reason1Title": "Instructeurs Expérimentés dans l'Industrie",
+    "reason1Desc": "Nos instructeurs sont des professionnels actifs du secteur avec une expérience terrain réelle dans le pétrole et le gaz, la construction et les opérations industrielles — apportant une expertise concrète, pas seulement de la théorie, à chaque programme que nous dispensons.",
+    "reason2Title": "Programmes Reconnus Internationalement",
+    "reason2Desc": "Chaque certification que nous délivrons est soutenue par un organisme mondialement reconnu — TWI-CSWIP, ASNT, API et ISO — les mêmes qualifications exigées par les grands opérateurs, entrepreneurs et employeurs sur des projets dans le monde entier.",
+    "reason3Title": "Formation Pratique et Appliquée",
+    "reason3Desc": "Nos programmes sont construits autour de l'application pratique. Les candidats travaillent avec de vrais équipements, de vrais scénarios et de vrais défis d'inspection — développant des compétences genuines et démontrables sur lesquelles les employeurs peuvent compter.",
     "reason4Title": "Expertise QA/QC Axée sur les Projets",
-    "reason4Desc": "Notre formation en QA/QC et en inspection est développée directement à partir des exigences des projets et des spécifications des clients, garantissant que les diplômés sont prêts dès le premier jour."
+    "reason4Desc": "Pour les entreprises et corporations, nos programmes QA/QC sont développés directement à partir des exigences des projets et des spécifications des clients — produisant des équipes certifiées, prêtes pour les appels d'offres, conformes aux audits et opérationnellement efficaces dès le premier jour.",
+    "reason5Title": "Support Basé en Angola",
+    "reason5Desc": "Nous sommes ici en Angola, délivrant des programmes internationalement accrédités localement — avec un support complet en anglais, portugais et français, et une connaissance approfondie du paysage industriel local et de l'environnement réglementaire."
   },
   "dualAudience": {
     "badge": "Pour Qui ?",
     "title": "Formation pour Tous les Objectifs",
+    "industries": {
+      "badge": "Secteurs que Nous Servons",
+      "title": "Secteurs que Nous Servons",
+      "oil": "Pétrole et Gaz",
+      "energy": "Énergie et Services Publics",
+      "petrochemical": "Pétrochimique",
+      "fabrication": "Fabrication et Manufacture",
+      "marine": "Maritime et Offshore",
+      "construction": "Construction et Infrastructure"
+    },
     "individual": {
       "tag": "Professionnels Individuels",
       "title": "Faites Progresser Votre Carrière",

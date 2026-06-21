@@ -10,6 +10,7 @@ import DualAudience from "@/components/sections/DualAudience";
 import PremiumTracks from "@/components/sections/PremiumTracks";
 import AboutSection from "@/components/sections/AboutSection";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
+import CertBodiesStrip from "@/components/sections/CertBodiesStrip";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -62,6 +63,7 @@ export default async function LandingPage({ params }: Props) {
       <Navbar />
       <main>
         <Hero />
+        <CertBodiesStrip />
 
         <section id="accreditations">
           <Certificates />
