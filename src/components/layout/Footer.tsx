@@ -49,7 +49,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer id="contact" className="bg-navy">
+    <footer id="contact" className="bg-black">
       {/* Brand-colour top rule */}
       <div className="h-px bg-blue" />
 

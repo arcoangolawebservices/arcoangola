@@ -11,6 +11,8 @@ import PremiumTracks from "@/components/sections/PremiumTracks";
 import AboutSection from "@/components/sections/AboutSection";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import CertBodiesStrip from "@/components/sections/CertBodiesStrip";
+import MissionStatement from "@/components/sections/MissionStatement";
+import ClosingBanner from "@/components/sections/ClosingBanner";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -65,6 +67,8 @@ export default async function LandingPage({ params }: Props) {
         <Hero />
         <CertBodiesStrip />
 
+        <MissionStatement />
+
         <section id="accreditations">
           <Certificates />
         </section>
@@ -97,6 +101,8 @@ export default async function LandingPage({ params }: Props) {
           <WhyChooseUs />
         </section>
       </main>
+
+      <ClosingBanner />
 
       <Footer />
     </>

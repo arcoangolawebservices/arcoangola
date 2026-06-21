@@ -1,4 +1,9 @@
 {
+  "closing": {
+    "headline": "Construindo o Futuro de Angola Através de Pessoas Competentes.",
+    "body": "ARCO ANGOLA desenvolve os inspectores, técnicos e profissionais da indústria que reforçam a qualidade, segurança, integridade e excelência operacional nos sectores de Petróleo & Gás, Energia, Construção e Indústria de Angola.",
+    "tagline": "De Angola. Para Normas Internacionais."
+  },
   "nav": {
     "programmes": "Programas",
     "coursesCatalogue": "Catálogo de Cursos",
@@ -23,6 +28,13 @@
     "stat2Label": "Cursos Disponíveis",
     "stat3Value": "3",
     "stat3Label": "Idiomas de Ensino"
+  },
+  "mission": {
+    "statement": "O futuro industrial de Angola depende não apenas da tecnologia e infraestrutura, mas da competência do seu povo.",
+    "body": "está comprometida em desenvolver profissionais de classe mundial através de Inspecção, Formação, Certificação e Desenvolvimento de Competências Técnicas.",
+    "tagline1": "Capacitando Angola Através de",
+    "tagline2": "Competência, Integridade",
+    "tagline3": "& Qualidade."
   },
   "certStrip": {
     "badge": "Certificações Internacionais",

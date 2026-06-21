@@ -1,4 +1,9 @@
 {
+  "closing": {
+    "headline": "Building Angola's Future Through Competent People.",
+    "body": "ARCO ANGOLA develops the inspectors, technicians, and industry professionals who strengthen quality, safety, integrity, and operational excellence across Angola's Oil & Gas, Energy, Construction, and Industrial sectors.",
+    "tagline": "From Angola. To International Standards."
+  },
   "nav": {
     "programmes": "Programmes",
     "coursesCatalogue": "Course Catalogue",
@@ -23,6 +28,13 @@
     "stat2Label": "Courses Available",
     "stat3Value": "3",
     "stat3Label": "Languages of Instruction"
+  },
+  "mission": {
+    "statement": "Angola's industrial future depends not only on technology and infrastructure, but on the competence of its people.",
+    "body": "is committed to developing world-class professionals through Inspection, Training, Certification, and Technical Competency Development.",
+    "tagline1": "Empowering Angola Through",
+    "tagline2": "Competence, Integrity",
+    "tagline3": "& Quality."
   },
   "certStrip": {
     "badge": "International Certifications",

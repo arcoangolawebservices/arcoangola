@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-navy: #0C2340;
+  --color-navy: #070F1C;
   --color-blue: #C8102E;
   --font-sans: var(--font-jakarta, "Plus Jakarta Sans", system-ui, sans-serif);
 }
