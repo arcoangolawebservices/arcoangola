@@ -4,11 +4,12 @@ export default function CertBodiesStrip() {
   const t = useTranslations("certStrip");
 
   const programs = [
-    { name: t("cswip"),  body: t("cswipBody") },
-    { name: t("bgas"),   body: t("bgasBody")  },
-    { name: t("asnt"),   body: t("asntBody")  },
-    { name: t("iso"),    body: t("isoBody")   },
-    { name: t("api"),    body: t("apiBody")   },
+    { name: t("cswip"),    body: t("cswipBody")   },
+    { name: t("bgas"),    body: t("bgasBody")    },
+    { name: t("asnt"),    body: t("asntBody")    },
+    { name: t("iso9712"), body: t("iso9712Body") },
+    { name: t("iso"),     body: t("isoBody")     },
+    { name: t("api"),     body: t("apiBody")     },
   ];
 
   return (
@@ -19,7 +20,7 @@ export default function CertBodiesStrip() {
           {t("badge")}
         </p>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-5">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 sm:gap-5">
           {programs.map((p) => (
             <div key={p.name} className="flex items-start gap-3 border-l-2 border-blue pl-3">
               <div>

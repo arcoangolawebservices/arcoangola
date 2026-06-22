@@ -44,6 +44,8 @@
     "bgasBody": "Inspection des Revêtements de Protection",
     "asnt": "Programmes ASNT CND",
     "asntBody": "SNT-TC-1A Niveau II",
+    "iso9712": "Programmes ISO 9712 CND",
+    "iso9712Body": "Certification Niveaux II & III",
     "iso": "Programmes Auditeur Principal ISO",
     "isoBody": "ISO 9001 · 14001 · 45001",
     "api": "Programmes de Préparation API",

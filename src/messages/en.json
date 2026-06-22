@@ -44,6 +44,8 @@
     "bgasBody": "Protective Coatings Inspection",
     "asnt": "ASNT NDT Programs",
     "asntBody": "SNT-TC-1A Level II",
+    "iso9712": "ISO 9712 NDT Programs",
+    "iso9712Body": "Level II & III Certification",
     "iso": "ISO Lead Auditor Programs",
     "isoBody": "ISO 9001 · 14001 · 45001",
     "api": "API Preparation Programs",
