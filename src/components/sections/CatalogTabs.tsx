@@ -81,7 +81,7 @@ function MobileIsoAccordion({ courses, subgroups }: { courses: Course[]; subgrou
               onClick={() => setOpen(isOpen ? "" : key)}
               className="w-full flex items-center justify-between px-4 py-3.5 bg-gray-50 text-left"
             >
-              <span className="text-xs font-black uppercase tracking-widest text-navy">
+              <span className="text-sm font-black uppercase tracking-widest text-blue">
                 {label}
               </span>
               <div className="flex items-center gap-2 shrink-0">
@@ -114,8 +114,8 @@ function IsoCoursePanel({ courses, subgroups }: { courses: Course[]; subgroups: 
         if (sub.length === 0) return null;
         return (
           <div key={key} className="border-b border-gray-100 last:border-0">
-            <div className="px-5 py-3 bg-gray-50 border-b border-gray-100">
-              <span className="text-xs font-black uppercase tracking-widest text-navy">
+            <div className="px-5 py-4 bg-gray-50 border-b border-gray-100">
+              <span className="text-sm font-black uppercase tracking-widest text-blue">
                 {label}
               </span>
             </div>
