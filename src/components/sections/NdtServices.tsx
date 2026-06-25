@@ -6,15 +6,18 @@ import { useTranslations } from "next-intl";
 
 // Static metadata only — names/descriptions come from translations
 const NDT_META = [
-  { abbr: "VT",   key: "vt",   tag: "Conventional", isAdvanced: false },
-  { abbr: "UT",   key: "ut",   tag: "Conventional", isAdvanced: false },
-  { abbr: "MT",   key: "mt",   tag: "Conventional", isAdvanced: false },
-  { abbr: "PT",   key: "pt",   tag: "Conventional", isAdvanced: false },
-  { abbr: "RT",   key: "rt",   tag: "Conventional", isAdvanced: false },
-  { abbr: "PAUT", key: "paut", tag: "Advanced",      isAdvanced: true  },
-  { abbr: "TOFD", key: "tofd", tag: "Advanced",      isAdvanced: true  },
-  { abbr: "ACFM", key: "acfm", tag: "Advanced",      isAdvanced: true  },
-  { abbr: "ECT",  key: "ect",  tag: "Advanced",      isAdvanced: true  },
+  { abbr: "VT",   key: "vt",   tag: "Conventional", isAdvanced: false, comingSoon: false },
+  { abbr: "UT",   key: "ut",   tag: "Conventional", isAdvanced: false, comingSoon: false },
+  { abbr: "MT",   key: "mt",   tag: "Conventional", isAdvanced: false, comingSoon: false },
+  { abbr: "PT",   key: "pt",   tag: "Conventional", isAdvanced: false, comingSoon: false },
+  { abbr: "RT",   key: "rt",   tag: "Conventional", isAdvanced: false, comingSoon: true  },
+  { abbr: "PAUT", key: "paut", tag: "Advanced",      isAdvanced: true,  comingSoon: false },
+  { abbr: "TOFD", key: "tofd", tag: "Advanced",      isAdvanced: true,  comingSoon: false },
+  { abbr: "ACFM", key: "acfm", tag: "Advanced",      isAdvanced: true,  comingSoon: false },
+  { abbr: "ECT",  key: "ect",  tag: "Advanced",      isAdvanced: true,  comingSoon: false },
+  { abbr: "TMT",  key: "tmt",  tag: "Conventional",  isAdvanced: false, comingSoon: false },
+  { abbr: "CM",   key: "cm",   tag: "Conventional",  isAdvanced: false, comingSoon: false },
+  { abbr: "PMI",  key: "pmi",  tag: "Conventional",  isAdvanced: false, comingSoon: false },
 ] as const;
 
 const WELDING_META = [
@@ -43,6 +46,7 @@ type Service = {
   tag: string;
   desc: string;
   isAdvanced: boolean;
+  comingSoon?: boolean;
 };
 
 function AccordionRow({
@@ -70,8 +74,15 @@ function AccordionRow({
 
         {/* Name */}
         <span className="flex-1 min-w-0">
-          <span className="block text-sm font-black text-white leading-snug">
-            {service.name}
+          <span className="flex items-center gap-2">
+            <span className="block text-sm font-black text-white leading-snug">
+              {service.name}
+            </span>
+            {service.comingSoon && (
+              <span className="text-[9px] font-black uppercase tracking-widest text-blue border border-blue px-1.5 py-0.5 leading-none shrink-0">
+                Coming Soon
+              </span>
+            )}
           </span>
           <span className="block text-[10px] text-white/60 uppercase tracking-widest mt-0.5 sm:hidden">
             {service.tag}
@@ -122,6 +133,7 @@ export default function NdtServices() {
   const NDT: Service[] = NDT_META.map((m) => ({
     abbr: m.abbr,
     isAdvanced: m.isAdvanced,
+    comingSoon: m.comingSoon,
     tag: buildTag(m),
     name: t(`ndt_${m.key}_name` as Parameters<typeof t>[0]),
     desc: t(`ndt_${m.key}_desc` as Parameters<typeof t>[0]),
@@ -234,7 +246,7 @@ export default function NdtServices() {
       <div className="border-t border-white/8" />
 
       {/* ── Tabs + Accordion ── */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
+      <div id="ndt-accordion" className="scroll-mt-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
 
         {/* Tab bar */}
         <div className="flex overflow-x-auto scrollbar-none border-b border-white/8 mb-8 -mx-4 px-4 sm:mx-0 sm:px-0">

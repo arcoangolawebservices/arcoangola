@@ -89,7 +89,7 @@ export default async function LandingPage({ params }: Props) {
           <PremiumTracks />
         </section>
 
-        <section id="ndt-services">
+        <section id="ndt-services" className="scroll-mt-20">
           <NdtServices />
         </section>
 
