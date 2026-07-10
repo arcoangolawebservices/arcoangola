@@ -19,7 +19,7 @@
     "title": "Formação Certificada.",
     "titleHighlight": "Competência Comprovada.",
     "titleSuffix": "Excelência Entregue.",
-    "subtitle": "Inspeção Internacional, Controlo QA/QC e Formação para Certificação — o primeiro centro globalmente acreditado em Angola, oferecendo programas TWI-CSWIP, ASNT, ISO e API reconhecidos por empregadores e operadores mundiais.",
+    "subtitle": "Inspeção Internacional, Controlo QA/QC, HSE e Formação para Certificação — o primeiro centro globalmente acreditado em Angola, oferecendo programas TWI-CSWIP, ASNT, ISO, API e HSE (NEBOSH, IOSH, OSHA) reconhecidos por empregadores e operadores mundiais.",
     "ctaExplore": "Explorar Certificações",
     "ctaCorporate": "Formação Empresarial",
     "stat1Value": "8+",
@@ -38,10 +38,8 @@
   },
   "certStrip": {
     "badge": "Certificações Internacionais",
-    "cswip": "Programas CSWIP",
-    "cswipBody": "Inspecção de Soldadura TWI",
-    "bgas": "Programas BGAS",
-    "bgasBody": "Inspecção de Revestimentos Protectores",
+    "cswip": "Programas CSWIP / BGAS",
+    "cswipBody": "Inspecção de Soldadura e Revestimentos TWI",
     "asnt": "Programas ASNT END",
     "asntBody": "SNT-TC-1A Nível II",
     "iso9712": "Programas ISO 9712 END",
@@ -49,7 +47,9 @@
     "iso": "Programas ISO Lead Auditor",
     "isoBody": "ISO 9001 · 14001 · 45001",
     "api": "Programas de Preparação API",
-    "apiBody": "API 510 · 570 · 653"
+    "apiBody": "API 510 · 570 · 653",
+    "hse": "Programas de Formação HSE",
+    "hseBody": "NEBOSH · IOSH · OSHA"
   },
   "ndtOverview": {
     "badge": "Serviços de Inspecção END",
@@ -614,7 +614,7 @@
     "reason1Title": "Instrutores com Experiência na Indústria",
     "reason1Desc": "Os nossos instrutores são profissionais activos da indústria com experiência prática de campo em petróleo e gás, construção e operações industriais — trazendo especialização real, não apenas teoria de sala de aula, a cada programa que entregamos.",
     "reason2Title": "Programas Internacionalmente Reconhecidos",
-    "reason2Desc": "Cada certificação que entregamos é apoiada por um organismo globalmente reconhecido — TWI-CSWIP, ASNT, API e ISO — as mesmas qualificações exigidas por grandes operadores, contratantes e empregadores em projectos a nível mundial.",
+    "reason2Desc": "Cada certificação que entregamos é apoiada por um organismo globalmente reconhecido — TWI-CSWIP, ASNT, API, ISO e HSE (NEBOSH, IOSH, OSHA) — as mesmas qualificações exigidas por grandes operadores, contratantes e empregadores em projectos a nível mundial.",
     "reason3Title": "Formação Prática e Aplicada",
     "reason3Desc": "Os nossos programas são construídos em torno da aplicação prática. Os candidatos trabalham com equipamentos reais, cenários reais e desafios de inspecção reais — desenvolvendo competências genuínas e demonstráveis em que os empregadores podem confiar.",
     "reason4Title": "Especialização em QA/QC Orientada a Projectos",

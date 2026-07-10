@@ -5,11 +5,11 @@ export default function CertBodiesStrip() {
 
   const programs = [
     { name: t("cswip"),    body: t("cswipBody")   },
-    { name: t("bgas"),    body: t("bgasBody")    },
     { name: t("asnt"),    body: t("asntBody")    },
     { name: t("iso9712"), body: t("iso9712Body") },
     { name: t("iso"),     body: t("isoBody")     },
     { name: t("api"),     body: t("apiBody")     },
+    { name: t("hse"),     body: t("hseBody")     },
   ];
 
   return (

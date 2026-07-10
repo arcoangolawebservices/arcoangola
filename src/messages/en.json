@@ -19,7 +19,7 @@
     "title": "Certified Training.",
     "titleHighlight": "Proven Competence.",
     "titleSuffix": "Delivered Excellence.",
-    "subtitle": "International Inspection, QA/QC & Certification Training Solutions — Angola's first globally accredited centre delivering TWI-CSWIP, ASNT, ISO and API programmes recognised by employers and operators worldwide.",
+    "subtitle": "International Inspection, QA/QC, HSE & Certification Training Solutions — Angola's first globally accredited centre delivering TWI-CSWIP, ASNT, ISO, API and HSE (NEBOSH, IOSH, OSHA) programmes recognised by employers and operators worldwide.",
     "ctaExplore": "Explore Certifications",
     "ctaCorporate": "Corporate Training",
     "stat1Value": "8+",
@@ -38,10 +38,8 @@
   },
   "certStrip": {
     "badge": "International Certifications",
-    "cswip": "CSWIP Programs",
-    "cswipBody": "TWI Welding Inspection",
-    "bgas": "BGAS Programs",
-    "bgasBody": "Protective Coatings Inspection",
+    "cswip": "CSWIP / BGAS Programs",
+    "cswipBody": "TWI Welding & Coatings Inspection",
     "asnt": "ASNT NDT Programs",
     "asntBody": "SNT-TC-1A Level II",
     "iso9712": "ISO 9712 NDT Programs",
@@ -49,7 +47,9 @@
     "iso": "ISO Lead Auditor Programs",
     "isoBody": "ISO 9001 · 14001 · 45001",
     "api": "API Preparation Programs",
-    "apiBody": "API 510 · 570 · 653"
+    "apiBody": "API 510 · 570 · 653",
+    "hse": "HSE Training Programs",
+    "hseBody": "NEBOSH · IOSH · OSHA"
   },
   "ndtOverview": {
     "badge": "NDT Inspection Services",
@@ -614,7 +614,7 @@
     "reason1Title": "Industry Experienced Instructors",
     "reason1Desc": "Our instructors are active industry professionals with hands-on field experience in oil & gas, construction and industrial operations — bringing real-world expertise, not just classroom theory, to every programme we deliver.",
     "reason2Title": "Internationally Recognized Programs",
-    "reason2Desc": "Every certification we deliver is backed by a globally recognised body — TWI-CSWIP, ASNT, API and ISO — the same qualifications demanded by major operators, contractors and employers on projects worldwide.",
+    "reason2Desc": "Every certification we deliver is backed by a globally recognised body — TWI-CSWIP, ASNT, API, ISO and HSE (NEBOSH, IOSH, OSHA) — the same qualifications demanded by major operators, contractors and employers on projects worldwide.",
     "reason3Title": "Practical Hands-On Training",
     "reason3Desc": "Our programmes are built around practical application. Candidates work with real equipment, real scenarios and real inspection challenges — building genuine, demonstrable competence that employers can rely on.",
     "reason4Title": "Project-Driven QA/QC Expertise",
