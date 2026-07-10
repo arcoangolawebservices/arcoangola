@@ -4,6 +4,7 @@ import Footer from "@/components/layout/Footer";
 import Hero from "@/components/sections/Hero";
 import Certificates from "@/components/sections/Certificates";
 import CertificationHighlights from "@/components/sections/CertificationHighlights";
+import HseTraining from "@/components/sections/HseTraining";
 import CatalogTabs from "@/components/sections/CatalogTabs";
 import NdtServices from "@/components/sections/NdtServices";
 import DualAudience from "@/components/sections/DualAudience";
@@ -79,6 +80,10 @@ export default async function LandingPage({ params }: Props) {
 
         <section id="programmes">
           <CertificationHighlights />
+        </section>
+
+        <section id="hse-training">
+          <HseTraining />
         </section>
 
         <section id="courses">
