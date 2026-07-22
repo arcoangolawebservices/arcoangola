@@ -35,12 +35,16 @@
     "ctaExplore": "Explorer les Certifications",
     "ctaCorporate": "Formation d'Entreprise",
     "waCorporateMessage": "Bonjour ARCO ANGOLA, je souhaiterais en savoir plus sur vos solutions de formation d'entreprise.",
-    "stat1Value": "8+",
-    "stat1Label": "Catégories de Certification",
-    "stat2Value": "40+",
-    "stat2Label": "Cours Disponibles",
-    "stat3Value": "3",
-    "stat3Label": "Langues d'Enseignement"
+    "stat1Value": "10 000+",
+    "stat1Label": "Professionnels Formés",
+    "stat2Value": "8 000+",
+    "stat2Label": "Certifications Délivrées",
+    "stat3Value": "25+",
+    "stat3Label": "Pays Desservis",
+    "stat4Value": "200+",
+    "stat4Label": "Clients Corporatifs",
+    "stat5Value": "21+",
+    "stat5Label": "Années d'Expérience"
   },
   "flagshipBand": {
     "label": "Programme Signature",
@@ -545,6 +549,24 @@
       }
     }
   },
+  "certEcosystem": {
+    "badge": "Notre Écosystème de Certification",
+    "heading": "Écosystème International de Certification",
+    "intro": "Six piliers connectés de certification technique, de qualification en sécurité et de développement des compétences — explorez le domaine de programme le plus pertinent pour vos objectifs.",
+    "item1Title": "Excellence en Inspection Technique",
+    "item1Desc": "Formation et certification END BS EN ISO 9712:2022, Niveaux I à III, méthodes conventionnelles et avancées.",
+    "item2Title": "Inspection en Soudage & Revêtement",
+    "item2Desc": "Certification d'inspection en soudage et peinture CSWIP et BGAS.",
+    "item3Title": "Systèmes de Management ISO",
+    "item3Desc": "Formation d'Auditeur Principal, mise en œuvre et certification des normes de management ISO.",
+    "item4Title": "Qualifications Professionnelles HSE",
+    "item4Desc": "Formation et développement en sécurité industrielle NEBOSH, IOSH, OSHA et CSP.",
+    "item5Title": "Intégrité et Fiabilité des Actifs",
+    "item5Desc": "Programmes d'inspection, d'intégrité et de fiabilité API.",
+    "item6Title": "Développement de la Main-d'œuvre Industrielle",
+    "item6Desc": "Formation technique sur mesure, développement des compétences et du leadership pour les équipes d'entreprise.",
+    "learnMore": "Voir les Programmes"
+  },
   "certificates": {
     "badge": "Accréditation Internationale",
     "heading": "Nos Accréditations ISO",
@@ -552,7 +574,11 @@
     "cert1Sub": "Système de Management de la Qualité",
     "cert2Sub": "Système de Management Environnemental",
     "cert3Sub": "Santé et Sécurité au Travail",
-    "close": "Fermer"
+    "close": "Fermer",
+    "accredBody1Label": "Accrédité UAF",
+    "accredBody1Sub": "United Accreditation Foundation",
+    "accredBody2Label": "Reconnu IAF",
+    "accredBody2Sub": "International Accreditation Forum"
   },
   "certHighlights": {
     "badge": "Programmes Mondialement Accrédités",
@@ -811,6 +837,32 @@
     "supportItem3": "ASNT",
     "supportItem4": "API · HSE · Auditeur Principal ISO"
   },
+  "globalPresence": {
+    "badge": "Notre Présence Mondiale",
+    "heading": "Normes Mondiales. Force Locale.",
+    "intro": "Présent dans plus de 25 pays sur 5 continents, avec un fort ancrage régional en Angola et une présence croissante en Afrique et au-delà.",
+    "regionalTitle": "Focus Régional",
+    "regionalDesc": "Fort accent sur l'Afrique, avec une présence solide en Angola et une expansion sur les principaux marchés régionaux.",
+    "country1": "Angola",
+    "country2": "Nigéria",
+    "country3": "Mozambique",
+    "country4": "Ghana",
+    "country5": "Afrique du Sud",
+    "countryMore": "Et plus encore",
+    "localTitle": "Force Locale",
+    "local1": "Présence Locale",
+    "local2": "Expertise Locale",
+    "local3": "Normes Mondiales",
+    "local4": "Orienté Client",
+    "partnersTitle": "Partenariats Stratégiques",
+    "partnersDesc": "Nous collaborons avec des organismes internationaux de premier plan pour fournir des solutions fiables et reconnues.",
+    "partner1": "ISO",
+    "partner2": "IAF",
+    "partner3": "ASNT",
+    "partner4": "TWI",
+    "partner5": "CSWIP",
+    "partner6": "API"
+  },
   "whyUs": {
     "badge": "Pourquoi Arco Angola",
     "heading": "Pourquoi Choisir ARCO ANGOLA ?",
@@ -824,7 +876,13 @@
     "reason4Title": "Livraison Multilingue",
     "reason4Desc": "Nous soutenons les apprenants en anglais, portugais et français, rendant une formation de qualité et des certifications accessibles dans toute l'Angola et la région.",
     "reason5Title": "Support Basé en Angola",
-    "reason5Desc": "Nous fournissons une livraison locale, des conseils d'experts et un accompagnement durable en Angola, aidant les clients et les apprenants à passer avec confiance de la formation à la compétence reconnue."
+    "reason5Desc": "Nous fournissons une livraison locale, des conseils d'experts et un accompagnement durable en Angola, aidant les clients et les apprenants à passer avec confiance de la formation à la compétence reconnue.",
+    "reason6Title": "Assurance Qualité et Excellence Prouvée",
+    "reason6Desc": "Un bilan constant de contrôle qualité rigoureux et de formation de haut niveau, garantissant que chaque certification délivrée reflète une compétence réelle et vérifiable.",
+    "reason7Title": "Amélioration Continue",
+    "reason7Desc": "Nous perfectionnons constamment nos programmes, processus et supports pour anticiper l'évolution des normes du secteur et des besoins de nos clients.",
+    "reason8Title": "Sécurité et Intégrité",
+    "reason8Desc": "Nous respectons les normes les plus strictes en matière de sécurité, d'éthique et de transparence dans tout ce que nous faisons, construisant la confiance avec chaque apprenant, client et partenaire."
   },
   "dualAudience": {
     "badge": "Pour Qui ?",
@@ -833,7 +891,7 @@
       "badge": "Secteurs que Nous Servons",
       "title": "Secteurs que Nous Servons",
       "oil": "Pétrole et Gaz",
-      "energy": "Énergie et Services Publics",
+      "power": "Production d'Énergie",
       "petrochemical": "Pétrochimique",
       "fabrication": "Fabrication et Manufacture",
       "marine": "Maritime et Offshore",

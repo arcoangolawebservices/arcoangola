@@ -11,10 +11,12 @@ export default function Hero() {
     { value: t("stat1Value"), label: t("stat1Label") },
     { value: t("stat2Value"), label: t("stat2Label") },
     { value: t("stat3Value"), label: t("stat3Label") },
+    { value: t("stat4Value"), label: t("stat4Label") },
+    { value: t("stat5Value"), label: t("stat5Label") },
   ];
 
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden pt-16 lg:pt-20">
+    <section className="relative flex items-center overflow-hidden pt-24 lg:pt-28 pb-10 lg:pb-14">
 
         {/* Background — full section */}
         <div className="absolute inset-0 bg-black" aria-hidden="true" />
@@ -28,14 +30,14 @@ export default function Hero() {
         <div className="absolute inset-0 bg-black/70" aria-hidden="true" />
 
         {/* Content */}
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 sm:px-10 lg:px-14 xl:px-20 py-14 lg:py-20">
-        <div className="max-w-2xl lg:max-w-3xl">
+        <div className="relative z-10 w-full max-w-7xl mx-auto pl-6 sm:pl-10 lg:pl-14 xl:pl-20 pr-4 sm:pr-6 lg:pr-8">
+        <div className="max-w-2xl lg:max-w-4xl xl:max-w-5xl">
 
-          <span className="block text-white/80 text-xs font-bold uppercase tracking-widest mb-6">
+          <span className="block text-white/80 text-xs font-bold uppercase tracking-widest mb-4">
             {t("badge")}
           </span>
 
-          <h1 className="text-4xl sm:text-5xl xl:text-6xl font-extrabold leading-[1.05] tracking-tight text-white mb-6">
+          <h1 className="text-4xl sm:text-5xl xl:text-6xl font-extrabold leading-[1.05] tracking-tight text-white mb-5">
             {t("title")}
             <br />
             <span className="text-yellow-400">{t("titleHighlight")}</span>
@@ -43,11 +45,11 @@ export default function Hero() {
             {t("titleSuffix")}
           </h1>
 
-          <p className="text-base sm:text-lg text-white/80 max-w-lg mb-10 leading-relaxed">
+          <p className="text-base sm:text-lg text-white/80 max-w-2xl mb-6 leading-relaxed">
             {t("subtitle")}
           </p>
 
-          <div className="flex flex-wrap gap-3 mb-12">
+          <div className="flex flex-wrap gap-3 mb-8">
             <a
               href="#courses"
               className="inline-flex items-center gap-2 px-6 py-3.5 bg-blue hover:bg-white hover:text-navy text-white font-bold text-sm transition-colors"
@@ -66,19 +68,19 @@ export default function Hero() {
               {t("ctaCorporate")}
             </a>
           </div>
+        </div>
 
-          <div className="flex flex-wrap gap-x-10 gap-y-5 border-t border-white/10 pt-6">
-            {stats.map((s) => (
-              <div key={s.label} className="flex items-center gap-2.5">
-                <span className="text-4xl sm:text-5xl font-black text-white leading-none tracking-tight">
-                  {s.value}
-                </span>
-                <span className="text-[10px] text-white/65 uppercase tracking-widest font-bold leading-tight max-w-[52px]">
-                  {s.label}
-                </span>
-              </div>
-            ))}
-          </div>
+        <div className="flex flex-wrap lg:flex-nowrap gap-x-8 lg:gap-x-10 gap-y-4 border-t border-white/10 pt-6">
+          {stats.map((s) => (
+            <div key={s.label} className="flex items-center gap-2.5 shrink-0">
+              <span className="text-2xl sm:text-3xl lg:text-4xl font-black text-white leading-none tracking-tight whitespace-nowrap">
+                {s.value}
+              </span>
+              <span className="text-[9px] sm:text-[10px] text-white/65 uppercase tracking-widest font-bold leading-tight max-w-[68px]">
+                {s.label}
+              </span>
+            </div>
+          ))}
         </div>
         </div>
 

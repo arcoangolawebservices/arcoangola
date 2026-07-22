@@ -32,12 +32,12 @@ export default function DualAudience() {
   ];
 
   const industries = [
-    t("industries.oil"),
-    t("industries.energy"),
-    t("industries.petrochemical"),
-    t("industries.fabrication"),
-    t("industries.marine"),
-    t("industries.construction"),
+    { label: t("industries.oil"), image: "/assets/img-industry-oil-gas.png" },
+    { label: t("industries.power"), image: "/assets/img-industry-power.png" },
+    { label: t("industries.petrochemical"), image: "/assets/img-industry-petrochemical.png" },
+    { label: t("industries.fabrication"), image: "/assets/img-industry-fabrication.png" },
+    { label: t("industries.marine"), image: "/assets/img-industry-marine.png" },
+    { label: t("industries.construction"), image: "/assets/img-industry-construction.png" },
   ];
 
   return (
@@ -58,7 +58,7 @@ export default function DualAudience() {
           <div className="flex flex-col overflow-hidden border-b lg:border-b-0 lg:border-r border-gray-200">
             <div className="relative h-64 sm:h-80 lg:h-72 xl:h-80 overflow-hidden shrink-0">
               <Image
-                src="/assets/worker.webp"
+                src="/assets/img-individual-professional.png"
                 alt="Certified industrial professional"
                 fill
                 style={{ objectFit: "cover", objectPosition: "center top" }}
@@ -98,7 +98,7 @@ export default function DualAudience() {
           <div className="flex flex-col overflow-hidden">
             <div className="relative h-64 sm:h-80 lg:h-72 xl:h-80 overflow-hidden shrink-0">
               <Image
-                src="/assets/img-executive.webp"
+                src="/assets/img-corporate-executive.png"
                 alt="Corporate compliance professional"
                 fill
                 style={{ objectFit: "cover", objectPosition: "center 15%" }}
@@ -155,10 +155,20 @@ export default function DualAudience() {
             </h3>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4">
-            {industries.map((industry) => (
-              <div key={industry} className="flex items-center gap-3 border border-gray-200 px-5 py-4">
-                <span className="w-1.5 h-1.5 bg-blue shrink-0" />
-                <span className="font-bold text-navy text-sm">{industry}</span>
+            {industries.map(({ label, image }) => (
+              <div key={label} className="group relative aspect-[16/10] overflow-hidden border border-gray-200">
+                <Image
+                  src={image}
+                  alt={label}
+                  fill
+                  sizes="(min-width: 640px) 33vw, 50vw"
+                  style={{ objectFit: "cover" }}
+                  className="transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-navy/80 via-navy/10 to-transparent" />
+                <span className="absolute bottom-3 left-4 right-4 font-black text-white text-sm leading-tight">
+                  {label}
+                </span>
               </div>
             ))}
           </div>

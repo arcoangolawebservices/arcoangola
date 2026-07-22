@@ -16,6 +16,8 @@ import FlagshipSolutions from "@/components/sections/FlagshipSolutions";
 import AdvancedNdtPrograms from "@/components/sections/AdvancedNdtPrograms";
 import CertBodiesStrip from "@/components/sections/CertBodiesStrip";
 import MissionStatement from "@/components/sections/MissionStatement";
+import CertificationEcosystem from "@/components/sections/CertificationEcosystem";
+import GlobalPresence from "@/components/sections/GlobalPresence";
 import ClosingBanner from "@/components/sections/ClosingBanner";
 
 type Props = { params: Promise<{ locale: string }> };
@@ -80,16 +82,20 @@ export default async function LandingPage({ params }: Props) {
 
         <MissionStatement />
 
+        <section id="certification-ecosystem">
+          <CertificationEcosystem />
+        </section>
+
         <section id="accreditations">
           <Certificates />
         </section>
 
-        <section id="about">
-          <AboutSection />
+        <section id="corporate">
+          <DualAudience />
         </section>
 
-        <section id="leadership">
-          <LeadershipTeam />
+        <section id="why-us">
+          <WhyChooseUs />
         </section>
 
         <section id="programmes">
@@ -116,12 +122,16 @@ export default async function LandingPage({ params }: Props) {
           <PremiumTracks />
         </section>
 
-        <section id="corporate">
-          <DualAudience />
+        <section id="about">
+          <AboutSection />
         </section>
 
-        <section id="why-us">
-          <WhyChooseUs />
+        <section id="leadership">
+          <LeadershipTeam />
+        </section>
+
+        <section id="global-presence">
+          <GlobalPresence />
         </section>
       </main>
 

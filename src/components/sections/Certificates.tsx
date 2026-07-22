@@ -10,6 +10,20 @@ const CERT_IMAGES = [
   { src: "/assets/cert-ohsms.webp", label: "ISO 45001:2018", subKey: "cert3Sub" as const },
 ];
 
+const ACCREDITATIONS = [
+  { labelKey: "accredBody1Label" as const, subKey: "accredBody1Sub" as const },
+  { labelKey: "accredBody2Label" as const, subKey: "accredBody2Sub" as const },
+];
+
+function ShieldIcon() {
+  return (
+    <svg className="w-5 h-5 shrink-0 text-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M12 3l7 3v5c0 4.5-3 8.5-7 10-4-1.5-7-5.5-7-10V6l7-3z" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4" />
+    </svg>
+  );
+}
+
 export default function Certificates() {
   const t = useTranslations("certificates");
   const [lightbox, setLightbox] = useState<string | null>(null);
@@ -60,6 +74,18 @@ export default function Certificates() {
                   <p className="text-[10px] text-gray-400 mt-0.5 leading-tight hidden sm:block">{t(subKey)}</p>
                 </div>
               </button>
+            ))}
+          </div>
+
+          <div className="mt-4 sm:mt-6 flex flex-wrap gap-3 sm:gap-4">
+            {ACCREDITATIONS.map(({ labelKey, subKey }) => (
+              <div key={labelKey} className="flex items-center gap-3 border border-gray-200 px-5 py-3">
+                <ShieldIcon />
+                <div>
+                  <p className="text-[11px] font-black text-blue uppercase tracking-widest leading-tight">{t(labelKey)}</p>
+                  <p className="text-[10px] text-gray-400 leading-tight">{t(subKey)}</p>
+                </div>
+              </div>
             ))}
           </div>
 

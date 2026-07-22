@@ -35,12 +35,16 @@
     "ctaExplore": "Explorar Certificações",
     "ctaCorporate": "Formação Empresarial",
     "waCorporateMessage": "Olá ARCO ANGOLA, gostaria de saber mais sobre as vossas soluções de formação empresarial.",
-    "stat1Value": "8+",
-    "stat1Label": "Categorias de Certificação",
-    "stat2Value": "40+",
-    "stat2Label": "Cursos Disponíveis",
-    "stat3Value": "3",
-    "stat3Label": "Idiomas de Ensino"
+    "stat1Value": "10.000+",
+    "stat1Label": "Profissionais Formados",
+    "stat2Value": "8.000+",
+    "stat2Label": "Certificações Emitidas",
+    "stat3Value": "25+",
+    "stat3Label": "Países Atendidos",
+    "stat4Value": "200+",
+    "stat4Label": "Clientes Corporativos",
+    "stat5Value": "21+",
+    "stat5Label": "Anos de Experiência"
   },
   "flagshipBand": {
     "label": "Programa Signature",
@@ -545,6 +549,24 @@
       }
     }
   },
+  "certEcosystem": {
+    "badge": "O Nosso Ecossistema de Certificação",
+    "heading": "Ecossistema Internacional de Certificação",
+    "intro": "Seis pilares interligados de certificação técnica, qualificação em segurança e desenvolvimento de competências — explore a área de programa mais relevante para os seus objetivos.",
+    "item1Title": "Excelência em Inspeção de Engenharia",
+    "item1Desc": "Formação e certificação END BS EN ISO 9712:2022, Níveis I a III, métodos convencionais e avançados.",
+    "item2Title": "Inspeção de Soldadura e Revestimento",
+    "item2Desc": "Certificação de inspeção de soldadura e pintura CSWIP e BGAS.",
+    "item3Title": "Sistemas de Gestão ISO",
+    "item3Desc": "Formação de Auditor Líder, implementação e certificação de normas de gestão ISO.",
+    "item4Title": "Qualificações Profissionais HSE",
+    "item4Desc": "Formação e desenvolvimento em segurança industrial NEBOSH, IOSH, OSHA e CSP.",
+    "item5Title": "Integridade e Fiabilidade de Ativos",
+    "item5Desc": "Programas de inspeção, integridade e fiabilidade API.",
+    "item6Title": "Desenvolvimento da Força de Trabalho Industrial",
+    "item6Desc": "Formação técnica personalizada, desenvolvimento de competências e liderança para equipas corporativas.",
+    "learnMore": "Ver Programas"
+  },
   "certificates": {
     "badge": "Acreditação Internacional",
     "heading": "As Nossas Acreditações ISO",
@@ -552,7 +574,11 @@
     "cert1Sub": "Sistema de Gestão da Qualidade",
     "cert2Sub": "Sistema de Gestão Ambiental",
     "cert3Sub": "Saúde e Segurança Ocupacional",
-    "close": "Fechar"
+    "close": "Fechar",
+    "accredBody1Label": "Acreditado pela UAF",
+    "accredBody1Sub": "United Accreditation Foundation",
+    "accredBody2Label": "Reconhecido pela IAF",
+    "accredBody2Sub": "International Accreditation Forum"
   },
   "certHighlights": {
     "badge": "Programas Globalmente Acreditados",
@@ -811,6 +837,32 @@
     "supportItem3": "ASNT",
     "supportItem4": "API · HSE · Auditor Líder ISO"
   },
+  "globalPresence": {
+    "badge": "A Nossa Presença Global",
+    "heading": "Padrões Globais. Força Local.",
+    "intro": "A servir clientes em mais de 25 países em 5 continentes, com um forte foco regional em Angola e presença crescente em África e além.",
+    "regionalTitle": "Foco Regional",
+    "regionalDesc": "Forte foco em África, com presença sólida em Angola e expansão para os principais mercados regionais.",
+    "country1": "Angola",
+    "country2": "Nigéria",
+    "country3": "Moçambique",
+    "country4": "Gana",
+    "country5": "África do Sul",
+    "countryMore": "E mais",
+    "localTitle": "Força Local",
+    "local1": "Presença Local",
+    "local2": "Especialização Local",
+    "local3": "Padrões Globais",
+    "local4": "Foco no Cliente",
+    "partnersTitle": "Parcerias Estratégicas",
+    "partnersDesc": "Trabalhamos com organismos internacionais líderes para fornecer soluções fiáveis e reconhecidas.",
+    "partner1": "ISO",
+    "partner2": "IAF",
+    "partner3": "ASNT",
+    "partner4": "TWI",
+    "partner5": "CSWIP",
+    "partner6": "API"
+  },
   "whyUs": {
     "badge": "Por Que Arco Angola",
     "heading": "Por Que Escolher a ARCO ANGOLA?",
@@ -824,7 +876,13 @@
     "reason4Title": "Entrega Multilingue",
     "reason4Desc": "Apoiamos os alunos em inglês, português e francês, tornando a formação de alta qualidade e as certificações acessíveis em Angola e na região.",
     "reason5Title": "Suporte Baseado em Angola",
-    "reason5Desc": "Oferecemos entrega local, orientação especializada e apoio contínuo em Angola, ajudando clientes e alunos a passar com confiança da formação para a competência reconhecida."
+    "reason5Desc": "Oferecemos entrega local, orientação especializada e apoio contínuo em Angola, ajudando clientes e alunos a passar com confiança da formação para a competência reconhecida.",
+    "reason6Title": "Garantia de Qualidade e Excelência Comprovada",
+    "reason6Desc": "Um histórico consistente de controlo de qualidade rigoroso e formação de alto nível, garantindo que cada certificação emitida reflete competência real e verificável.",
+    "reason7Title": "Melhoria Contínua",
+    "reason7Desc": "Aperfeiçoamos constantemente os nossos programas, processos e materiais para acompanhar a evolução dos padrões da indústria e as necessidades dos nossos clientes.",
+    "reason8Title": "Segurança e Integridade",
+    "reason8Desc": "Mantemos os mais elevados padrões de segurança, ética e transparência em tudo o que fazemos, construindo confiança com cada aluno, cliente e parceiro."
   },
   "dualAudience": {
     "badge": "Para Quem?",
@@ -833,7 +891,7 @@
       "badge": "Sectores que Servimos",
       "title": "Sectores que Servimos",
       "oil": "Petróleo e Gás",
-      "energy": "Energia e Utilities",
+      "power": "Geração de Energia",
       "petrochemical": "Petroquímica",
       "fabrication": "Fabricação e Manufactura",
       "marine": "Marítimo e Offshore",
