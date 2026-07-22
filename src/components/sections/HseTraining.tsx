@@ -146,7 +146,7 @@ function HseAccordionCard({ card, isOpen, onToggle, t }: { card: CardDef; isOpen
 
 export default function HseTraining() {
   const t = useTranslations("hseTraining");
-  const [openCard, setOpenCard] = useState<string | null>(CARDS[0].key);
+  const [openCard, setOpenCard] = useState<string | null>(null);
 
   return (
     <section className="py-14 sm:py-20 lg:py-28 bg-white border-b border-gray-100">

@@ -70,46 +70,6 @@ function CourseRow({ course }: { course: Course }) {
   );
 }
 
-function MobileIsoAccordion({ courses, subgroups }: { courses: Course[]; subgroups: { key: string; label: string }[] }) {
-  const [open, setOpen] = useState<string>("isoSystems");
-
-  return (
-    <div>
-      {subgroups.map(({ key, label }) => {
-        const sub = courses.filter((c) => c.category === key);
-        if (sub.length === 0) return null;
-        const isOpen = open === key;
-        return (
-          <div key={key} className="border-b border-gray-100 last:border-0">
-            <button
-              onClick={() => setOpen(isOpen ? "" : key)}
-              className="w-full flex items-center justify-between px-4 py-3.5 bg-gray-50 text-left"
-            >
-              <span className="text-sm font-black uppercase tracking-widest text-blue">
-                {label}
-              </span>
-              <div className="flex items-center gap-2 shrink-0">
-                <span className="text-[10px] font-bold text-gray-400">{sub.length}</span>
-                <svg
-                  className={`w-4 h-4 text-blue transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
-                  fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                </svg>
-              </div>
-            </button>
-            {isOpen && (
-              <div className="divide-y divide-gray-100">
-                {sub.map((course) => <CourseRow key={course.id} course={course} />)}
-              </div>
-            )}
-          </div>
-        );
-      })}
-    </div>
-  );
-}
-
 function IsoCoursePanel({ courses, subgroups }: { courses: Course[]; subgroups: { key: string; label: string }[] }) {
   return (
     <div>
@@ -138,7 +98,7 @@ function IsoCoursePanel({ courses, subgroups }: { courses: Course[]; subgroups: 
 }
 
 export default function CatalogTabs({ courses, labels }: Props) {
-  const [active, setActive] = useState<string>("iso");
+  const [active, setActive] = useState<string | null>(null);
 
   // Listen for tab-change events fired by CertificationHighlights cards
   useEffect(() => {
@@ -160,8 +120,6 @@ export default function CatalogTabs({ courses, labels }: Props) {
     { key: "ndt",     label: labels.filterNdt },
     { key: "api",     label: labels.filterApi },
   ];
-
-  const visible = courses.filter((c) => CATEGORY_GROUPS[c.category] === active);
 
   return (
     <section className="py-14 sm:py-20 lg:py-28 bg-gray-50 border-b border-gray-100">
@@ -201,79 +159,53 @@ export default function CatalogTabs({ courses, labels }: Props) {
 
         </div>
 
-        {/* ── MOBILE: 2×2 grid tabs + accordion for ISO ── */}
-        <div className="lg:hidden">
-          <div className="grid grid-cols-2 gap-2 mb-4">
-            {sections.map(({ key, label }) => {
-              const count = courses.filter((c) => CATEGORY_GROUPS[c.category] === key).length;
-              const isActive = active === key;
-              return (
+        {/* Accordion — all categories closed by default, expand on click */}
+        <div className="border border-gray-200 bg-white divide-y divide-gray-100">
+          {sections.map(({ key, label }) => {
+            const count = courses.filter((c) => CATEGORY_GROUPS[c.category] === key).length;
+            const isOpen = active === key;
+            return (
+              <div key={key}>
                 <button
-                  key={key}
-                  onClick={() => setActive(key)}
-                  className={`flex flex-col items-start px-4 py-4 border transition-colors text-left ${
-                    isActive ? "bg-navy border-navy" : "bg-white border-gray-200"
+                  onClick={() => setActive(isOpen ? null : key)}
+                  aria-expanded={isOpen}
+                  className={`w-full flex items-center justify-between gap-4 px-5 py-5 text-left transition-colors ${
+                    isOpen ? "bg-navy" : "bg-white hover:bg-gray-50"
                   }`}
                 >
-                  <span className={`text-[9px] font-black uppercase tracking-widest mb-1.5 leading-tight ${isActive ? "text-yellow-400" : "text-gray-400"}`}>
-                    {SECTION_BODIES[key]}
-                  </span>
-                  <span className={`font-black text-sm leading-tight ${isActive ? "text-white" : "text-navy"}`}>
-                    {label}
-                  </span>
-                  <span className={`text-[10px] mt-1 font-semibold ${isActive ? "text-white/50" : "text-gray-400"}`}>
-                    {count} {labels.coursesLabel}
-                  </span>
+                  <div>
+                    <span className={`block text-[10px] font-black uppercase tracking-widest mb-1.5 leading-tight ${isOpen ? "text-yellow-400" : "text-gray-400"}`}>
+                      {SECTION_BODIES[key]}
+                    </span>
+                    <span className={`block font-black text-base sm:text-lg leading-tight ${isOpen ? "text-white" : "text-navy"}`}>
+                      {label}
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-3 shrink-0">
+                    <span className={`text-[11px] font-semibold ${isOpen ? "text-white/50" : "text-gray-400"}`}>
+                      {count} {labels.coursesLabel}
+                    </span>
+                    <svg
+                      className={`w-4 h-4 shrink-0 transition-transform duration-200 ${isOpen ? "rotate-180 text-yellow-400" : "text-blue"}`}
+                      fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </div>
                 </button>
-              );
-            })}
-          </div>
-
-          <div className="border border-gray-200 bg-white">
-            {active === "iso"
-              ? <MobileIsoAccordion courses={courses} subgroups={isoSubgroups} />
-              : <div className="divide-y divide-gray-100">{visible.map((c) => <CourseRow key={c.id} course={c} />)}</div>
-            }
-          </div>
-        </div>
-
-        {/* ── DESKTOP: sidebar on left, courses on right ── */}
-        <div className="hidden lg:flex border border-gray-200">
-
-          {/* Sidebar — wider to fit body names */}
-          <div className="w-72 shrink-0 border-r border-gray-200 divide-y divide-gray-100">
-            {sections.map(({ key, label }) => {
-              const count = courses.filter((c) => CATEGORY_GROUPS[c.category] === key).length;
-              const isActive = active === key;
-              return (
-                <button
-                  key={key}
-                  onClick={() => setActive(key)}
-                  className={`w-full text-left px-5 py-5 transition-colors border-l-4 ${
-                    isActive ? "bg-navy border-l-blue" : "bg-white hover:bg-gray-50 border-l-transparent"
-                  }`}
-                >
-                  <span className={`block text-[10px] font-black uppercase tracking-widest mb-1.5 leading-tight ${isActive ? "text-yellow-400" : "text-gray-400"}`}>
-                    {SECTION_BODIES[key]}
-                  </span>
-                  <span className={`block font-black text-base leading-tight ${isActive ? "text-white" : "text-navy"}`}>
-                    {label}
-                  </span>
-                  <span className={`block text-[11px] mt-1.5 font-semibold ${isActive ? "text-white/50" : "text-gray-400"}`}>
-                    {count} {labels.coursesLabel}
-                  </span>
-                </button>
-              );
-            })}
-          </div>
-
-          {/* Course panel */}
-          <div className="flex-1 bg-white min-h-[320px]">
-            {active === "iso"
-              ? <IsoCoursePanel courses={courses} subgroups={isoSubgroups} />
-              : <div className="divide-y divide-gray-100">{visible.map((c) => <CourseRow key={c.id} course={c} />)}</div>
-            }
-          </div>
+                {isOpen && (
+                  <div className="bg-gray-50/60">
+                    {key === "iso"
+                      ? <IsoCoursePanel courses={courses} subgroups={isoSubgroups} />
+                      : <div className="divide-y divide-gray-100 bg-white">
+                          {courses.filter((c) => CATEGORY_GROUPS[c.category] === key).map((c) => <CourseRow key={c.id} course={c} />)}
+                        </div>
+                    }
+                  </div>
+                )}
+              </div>
+            );
+          })}
         </div>
 
       </div>
